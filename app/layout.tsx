@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   description:
     'Access over 70 free, secure, and lightning-fast online tools for image compression, audio editing, and PDF management. PixMorph runs entirely in your browser, ensuring your files never leave your device.',
   keywords: ['online image tools', 'audio trimmer', 'PDF compressor', 'privacy-first utilities', 'browser-based processing', 'free digital tools'],
+  verification: {
+    google: 'googlefbfa23743896d7f7',
+  },
 }
 
 export default function RootLayout({
@@ -49,4 +52,3 @@ export default function RootLayout({
     </html>
   )
 }
-
