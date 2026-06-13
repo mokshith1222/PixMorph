@@ -1,0 +1,47 @@
+{
+  "name": "pixmorph",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@breezystack/lamejs": "^1.2.7",
+    "clsx": "^2.1.0",
+    "compressorjs": "^1.2.0",
+    "framer-motion": "^10.16.4",
+    "heic2any": "^0.0.4",
+    "js-beautify": "^1.15.1",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.294.0",
+    "next": "^16.2.9",
+    "next-themes": "^0.3.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.0.379",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.1",
+    "sql-formatter": "^15.4.2",
+    "tailwind-merge": "^2.2.0",
+    "terser": "^5.31.0",
+    "uuid": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/js-beautify": "^1.14.3",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/uuid": "^10.0.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "15.0.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.0"
+  }
+}
