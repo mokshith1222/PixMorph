@@ -19,7 +19,7 @@ export function Navbar() {
             >
               All Tools
             </Link>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">
+            <a href="https://github.com/mokshith1222/PixMorph" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-900 dark:hover:white transition-colors">
               <Github className="w-5 h-5" />
             </a>
             <ThemeToggle />

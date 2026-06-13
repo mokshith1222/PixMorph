@@ -87,7 +87,7 @@ export default function HomePage() {
                 Explore All Tools
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="w-full sm:w-auto px-10 py-4 rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300 font-bold hover:bg-gray-50 dark:hover:bg-gray-800 transition-all flex items-center justify-center gap-2 active:scale-95">
+              <a href="https://github.com/mokshith1222/PixMorph" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-10 py-4 rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300 font-bold hover:bg-gray-50 dark:hover:bg-gray-800 transition-all flex items-center justify-center gap-2 active:scale-95">
                 Star on GitHub
               </a>
             </div>

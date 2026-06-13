@@ -24,7 +24,7 @@ export function Footer() {
                 className="w-10 h-10 rounded-xl bg-pink-50 dark:bg-pink-900/20 border border-pink-200 dark:border-pink-800 flex items-center justify-center text-pink-500 hover:bg-pink-100 dark:hover:bg-pink-900/40 hover:scale-110 transition-all">
                 <Instagram className="w-4 h-4" />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+              <a href="https://github.com/mokshith1222/PixMorph" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
                 className="w-10 h-10 rounded-xl bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 hover:scale-110 transition-all">
                 <Github className="w-4 h-4" />
               </a>
