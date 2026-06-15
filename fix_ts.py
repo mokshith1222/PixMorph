@@ -8,9 +8,8 @@ for filename in os.listdir(base_dir):
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
             
-        if "new Blob([data]" in content or "new Blob([data," in content or "new Blob([data ]" in content:
-            new_content = content.replace("new Blob([data]", "new Blob([data as Uint8Array]")
-            new_content = new_content.replace("new Blob([data, ", "new Blob([data as Uint8Array, ")
+        if "new Blob([data as Uint8Array" in content:
+            new_content = content.replace("new Blob([data as Uint8Array", "new Blob([data as any")
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(new_content)
                 print(f"Fixed {filename}")

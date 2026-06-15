@@ -35,7 +35,7 @@ export function AudioEditor() {
       // Apply a simple volume filter as an "edit" example
       await ffmpeg.exec(['-i', 'input.mp3', '-filter:a', 'volume=1.5', 'output.mp3'])
       const data = await ffmpeg.readFile('output.mp3')
-      const blob = new Blob([data as Uint8Array], { type: 'audio/mpeg' })
+      const blob = new Blob([data as any], { type: 'audio/mpeg' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

@@ -35,7 +35,7 @@ export function VideoSpeedChanger() {
       // 2x speed as an example
       await ffmpeg.exec(['-i', 'input.mp4', '-filter:v', 'setpts=0.5*PTS', '-filter:a', 'atempo=2.0', 'output.mp4'])
       const data = await ffmpeg.readFile('output.mp4')
-      const blob = new Blob([data as Uint8Array], { type: 'video/mp4' })
+      const blob = new Blob([data as any], { type: 'video/mp4' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

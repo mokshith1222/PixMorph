@@ -35,7 +35,7 @@ export function VideoCropper() {
       // Crop center 500x500 as an example
       await ffmpeg.exec(['-i', 'input.mp4', '-vf', 'crop=500:500', '-c:a', 'copy', 'output.mp4'])
       const data = await ffmpeg.readFile('output.mp4')
-      const blob = new Blob([data as Uint8Array], { type: 'video/mp4' })
+      const blob = new Blob([data as any], { type: 'video/mp4' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

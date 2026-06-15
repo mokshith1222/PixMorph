@@ -35,7 +35,7 @@ export function AudioPitchChanger() {
       // Pitch shift up (asetrate increases pitch and speed, atempo slows speed back down)
       await ffmpeg.exec(['-i', 'input.mp3', '-filter:a', 'asetrate=44100*1.25,atempo=0.8', 'output.mp3'])
       const data = await ffmpeg.readFile('output.mp3')
-      const blob = new Blob([data as Uint8Array], { type: 'audio/mpeg' })
+      const blob = new Blob([data as any], { type: 'audio/mpeg' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       
