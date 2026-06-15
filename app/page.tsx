@@ -3,7 +3,6 @@
 import React from 'react'
 import { Container } from '@/components/ui/Container'
 import Link from 'next/link'
-import { motion } from 'framer-motion'
 import { 
   ArrowRight, 
   Zap, 
@@ -11,51 +10,28 @@ import {
   Image as ImageIcon, 
   Music, 
   FileText, 
-  Settings,
-  Sparkles,
-  Globe,
-  Cpu,
-  Lock,
-  ChevronDown,
-  CheckCircle2,
-  HardDrive,
   Code2,
+  Sparkles,
+  Lock,
+  Cpu,
   Star,
-  Wand2,
-  PlaySquare,
-  Layers
+  Layers,
+  PlaySquare
 } from 'lucide-react'
 import { TOOLS } from '@/lib/constants'
 
 const MarqueeRow = ({ items, reverse = false }: { items: any[], reverse?: boolean }) => {
   return (
-    <div className="flex w-full overflow-hidden select-none group">
-      <motion.div
-        initial={{ x: reverse ? "-100%" : "0%" }}
-        animate={{ x: reverse ? "0%" : "-100%" }}
-        transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
-        className="flex gap-4 flex-shrink-0 pr-4 items-center group-hover:[animation-play-state:paused]"
-      >
-        {items.map((tool, i) => (
+    <div className="flex w-full overflow-hidden select-none group relative">
+      {/* Fallback to CSS animations instead of Framer Motion for perfect stability */}
+      <div className={`flex gap-4 min-w-max items-center pr-4 group-hover:[animation-play-state:paused] ${reverse ? 'animate-marquee-reverse' : 'animate-marquee'}`}>
+        {[...items, ...items].map((tool, i) => (
           <div key={`${tool.name}-${i}`} className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-white/5 dark:bg-gray-800/40 border border-black/5 dark:border-white/5 backdrop-blur-md whitespace-nowrap text-sm font-semibold text-gray-700 dark:text-gray-300 shadow-sm hover:scale-105 transition-transform hover:bg-primary-500/10 hover:text-primary-600 dark:hover:text-primary-400 cursor-pointer">
             <span className="w-2 h-2 rounded-full bg-primary-500/50" />
             {tool.name}
           </div>
         ))}
-      </motion.div>
-      <motion.div
-        initial={{ x: reverse ? "-100%" : "0%" }}
-        animate={{ x: reverse ? "0%" : "-100%" }}
-        transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
-        className="flex gap-4 flex-shrink-0 pr-4 items-center group-hover:[animation-play-state:paused]"
-      >
-        {items.map((tool, i) => (
-          <div key={`dup-${tool.name}-${i}`} className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-white/5 dark:bg-gray-800/40 border border-black/5 dark:border-white/5 backdrop-blur-md whitespace-nowrap text-sm font-semibold text-gray-700 dark:text-gray-300 shadow-sm hover:scale-105 transition-transform hover:bg-primary-500/10 hover:text-primary-600 dark:hover:text-primary-400 cursor-pointer">
-            <span className="w-2 h-2 rounded-full bg-primary-500/50" />
-            {tool.name}
-          </div>
-        ))}
-      </motion.div>
+      </div>
     </div>
   )
 }
@@ -114,19 +90,6 @@ export default function HomePage() {
     }
   ]
 
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: { 
-      opacity: 1,
-      transition: { staggerChildren: 0.1, delayChildren: 0.2 }
-    }
-  }
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } }
-  }
-
   return (
     <div className="flex flex-col gap-24 pb-20 overflow-hidden bg-[#fafafa] dark:bg-[#0a0a0a]">
       {/* Background Gradients */}
@@ -138,20 +101,15 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-16">
         <Container>
-          <motion.div 
-            initial="hidden"
-            animate="visible"
-            variants={containerVariants}
-            className="flex flex-col items-center text-center max-w-5xl mx-auto"
-          >
-            <motion.div variants={itemVariants} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/50 dark:bg-white/5 border border-black/5 dark:border-white/10 backdrop-blur-md mb-8 shadow-sm">
+          <div className="flex flex-col items-center text-center max-w-5xl mx-auto animate-slide-up">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/50 dark:bg-white/5 border border-black/5 dark:border-white/10 backdrop-blur-md mb-8 shadow-sm">
               <Sparkles className="w-4 h-4 text-primary-500" />
               <span className="text-sm font-semibold bg-gradient-to-r from-gray-800 to-gray-500 dark:from-gray-100 dark:to-gray-400 bg-clip-text text-transparent">
                 Introducing 70+ Local First Tools
               </span>
-            </motion.div>
+            </div>
             
-            <motion.h1 variants={itemVariants} className="text-6xl md:text-8xl font-display font-extrabold tracking-tight text-gray-900 dark:text-white leading-[1.05] mb-8">
+            <h1 className="text-6xl md:text-8xl font-display font-extrabold tracking-tight text-gray-900 dark:text-white leading-[1.05] mb-8">
               Transform Files <br />
               <span className="relative inline-block mt-2">
                 <span className="absolute -inset-2 bg-gradient-to-r from-primary-500 to-purple-500 blur-2xl opacity-20 rounded-full" />
@@ -159,13 +117,13 @@ export default function HomePage() {
                   At Near-Native Speed
                 </span>
               </span>
-            </motion.h1>
+            </h1>
             
-            <motion.p variants={itemVariants} className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl leading-relaxed mb-12 font-medium">
+            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl leading-relaxed mb-12 font-medium">
               Image conversion, audio trimming, video stabilization, and PDF editing. Zero server uploads. Infinite privacy. Fully powered by your browser's WebAssembly.
-            </motion.p>
+            </p>
             
-            <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-center gap-6 w-full sm:w-auto">
+            <div className="flex flex-col sm:flex-row items-center gap-6 w-full sm:w-auto">
               <Link href="/tools" className="relative group w-full sm:w-auto">
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary-600 to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-500 group-hover:duration-200" />
                 <div className="relative w-full sm:w-auto px-10 py-5 rounded-2xl bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-bold transition-all flex items-center justify-center gap-3 active:scale-95 text-lg">
@@ -177,13 +135,13 @@ export default function HomePage() {
                 <Star className="w-6 h-6 fill-gray-900 dark:fill-white" />
                 Star on GitHub
               </a>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
         </Container>
       </section>
 
       {/* Infinite Tool Marquee */}
-      <section className="py-10 border-y border-black/5 dark:border-white/5 bg-white/20 dark:bg-black/20 backdrop-blur-sm overflow-hidden flex flex-col gap-6">
+      <section className="py-10 border-y border-black/5 dark:border-white/5 bg-white/20 dark:bg-black/20 backdrop-blur-sm overflow-hidden flex flex-col gap-6 animate-fade-in [animation-delay:500ms]">
         <MarqueeRow items={topRow} />
         <MarqueeRow items={bottomRow} reverse />
       </section>
@@ -198,13 +156,10 @@ export default function HomePage() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[280px]">
             {categories.map((cat, i) => (
-              <motion.div
+              <div
                 key={cat.title}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
-                className={`${cat.colSpan} relative group`}
+                className={`${cat.colSpan} relative group animate-slide-up`}
+                style={{ animationDelay: `${i * 150}ms` }}
               >
                 <Link href={cat.href} className="block w-full h-full">
                   <div className={`absolute inset-0 bg-gradient-to-br ${cat.color} opacity-0 group-hover:opacity-5 rounded-[32px] transition-opacity duration-500`} />
@@ -224,7 +179,7 @@ export default function HomePage() {
                     </div>
                   </div>
                 </Link>
-              </motion.div>
+              </div>
             ))}
           </div>
         </Container>
@@ -254,13 +209,10 @@ export default function HomePage() {
                     { icon: <Zap />, title: "Zero Upload Latency", desc: "No more waiting for files to upload to a remote server. Processing begins the millisecond you drop the file." },
                     { icon: <Shield />, title: "Cryptographic Privacy", desc: "By design, it is impossible for us to see, store, or share your data. The server only delivers the app UI." }
                   ].map((feature, i) => (
-                    <motion.div 
+                    <div 
                       key={i} 
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ delay: i * 0.2 }}
-                      className="flex gap-6"
+                      className="flex gap-6 animate-slide-up"
+                      style={{ animationDelay: `${i * 200}ms` }}
                     >
                       <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400">
                         {feature.icon}
@@ -269,23 +221,15 @@ export default function HomePage() {
                         <h3 className="text-xl font-bold text-white mb-2">{feature.title}</h3>
                         <p className="text-gray-400 leading-relaxed text-lg">{feature.desc}</p>
                       </div>
-                    </motion.div>
+                    </div>
                   ))}
                 </div>
               </div>
               
               {/* Interactive Visual Element */}
               <div className="hidden lg:flex items-center justify-center relative">
-                <motion.div 
-                  animate={{ rotate: 360 }}
-                  transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
-                  className="absolute w-[500px] h-[500px] rounded-full border border-white/10 border-dashed" 
-                />
-                <motion.div 
-                  animate={{ rotate: -360 }}
-                  transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
-                  className="absolute w-[350px] h-[350px] rounded-full border border-primary-500/20" 
-                />
+                <div className="absolute w-[500px] h-[500px] rounded-full border border-white/10 border-dashed animate-[spin_40s_linear_infinite]" />
+                <div className="absolute w-[350px] h-[350px] rounded-full border border-primary-500/20 animate-[spin_30s_linear_infinite_reverse]" />
                 
                 <div className="w-64 h-64 bg-gray-800 rounded-3xl border border-white/10 shadow-2xl overflow-hidden relative group">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
