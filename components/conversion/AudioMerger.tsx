@@ -35,7 +35,7 @@ export function AudioMerger() {
       // Just re-encoding for now as an example of AudioMerger (requires multiple files technically)
       await ffmpeg.exec(['-i', 'input.mp3', '-acodec', 'copy', 'output.mp3'])
       const data = await ffmpeg.readFile('output.mp3')
-      const blob = new Blob([data], { type: 'audio/mpeg' })
+      const blob = new Blob([data as Uint8Array], { type: 'audio/mpeg' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

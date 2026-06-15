@@ -35,7 +35,7 @@ export function AudioSplitter() {
       // Split first 10 seconds as an example
       await ffmpeg.exec(['-i', 'input.mp3', '-t', '10', '-c', 'copy', 'output.mp3'])
       const data = await ffmpeg.readFile('output.mp3')
-      const blob = new Blob([data], { type: 'audio/mpeg' })
+      const blob = new Blob([data as Uint8Array], { type: 'audio/mpeg' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

@@ -34,7 +34,7 @@ export function VideoTrimmer() {
       ffmpeg.writeFile('input.mp4', await fetchFile(file))
       await ffmpeg.exec(['-i', 'input.mp4', '-ss', '00:00:00', '-t', '00:00:10', '-c', 'copy', 'output.mp4'])
       const data = await ffmpeg.readFile('output.mp4')
-      const blob = new Blob([data], { type: 'video/mp4' })
+      const blob = new Blob([data as Uint8Array], { type: 'video/mp4' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

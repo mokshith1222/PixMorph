@@ -35,7 +35,7 @@ export function VideoStabilizer() {
       // Vidstab is complex, applying a simple deshake filter
       await ffmpeg.exec(['-i', 'input.mp4', '-vf', 'deshake', '-c:a', 'copy', 'output.mp4'])
       const data = await ffmpeg.readFile('output.mp4')
-      const blob = new Blob([data], { type: 'video/mp4' })
+      const blob = new Blob([data as Uint8Array], { type: 'video/mp4' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       
