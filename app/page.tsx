@@ -16,7 +16,9 @@ import {
   Cpu,
   Star,
   Layers,
-  PlaySquare
+  PlaySquare,
+  Globe2,
+  Palette
 } from 'lucide-react'
 import { TOOLS } from '@/lib/constants'
 
@@ -86,7 +88,25 @@ export default function HomePage() {
       color: 'from-emerald-500 to-teal-400',
       shadow: 'shadow-emerald-500/20',
       href: '/tools#utility',
-      colSpan: 'md:col-span-3',
+      colSpan: 'md:col-span-1',
+    },
+    {
+      title: 'Network Intelligence',
+      description: 'Instant DNS Lookups and Domain Age checks.',
+      icon: <Globe2 className="w-8 h-8" />,
+      color: 'from-indigo-500 to-blue-500',
+      shadow: 'shadow-indigo-500/20',
+      href: '/tools#network',
+      colSpan: 'md:col-span-1',
+    },
+    {
+      title: 'Design Makers',
+      description: 'Generate Logos, Icons, Banners, Posters and Resumes.',
+      icon: <Palette className="w-8 h-8" />,
+      color: 'from-pink-500 to-rose-400',
+      shadow: 'shadow-pink-500/20',
+      href: '/tools#design',
+      colSpan: 'md:col-span-1',
     }
   ]
 
@@ -105,7 +125,7 @@ export default function HomePage() {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/50 dark:bg-white/5 border border-black/5 dark:border-white/10 backdrop-blur-md mb-8 shadow-sm">
               <Sparkles className="w-4 h-4 text-primary-500" />
               <span className="text-sm font-semibold bg-gradient-to-r from-gray-800 to-gray-500 dark:from-gray-100 dark:to-gray-400 bg-clip-text text-transparent">
-                Introducing 70+ Local First Tools
+                Introducing 100+ Local First Tools
               </span>
             </div>
             
@@ -154,7 +174,7 @@ export default function HomePage() {
             <p className="text-xl text-gray-500 dark:text-gray-400">Professional toolkits crafted into an elegant interface.</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[280px]">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-[200px]">
             {categories.map((cat, i) => (
               <div
                 key={cat.title}
@@ -162,20 +182,20 @@ export default function HomePage() {
                 style={{ animationDelay: `${i * 150}ms` }}
               >
                 <Link href={cat.href} className="block w-full h-full">
-                  <div className={`absolute inset-0 bg-gradient-to-br ${cat.color} opacity-0 group-hover:opacity-5 rounded-[32px] transition-opacity duration-500`} />
-                  <div className="w-full h-full p-8 md:p-10 rounded-[32px] bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-gray-300 dark:hover:border-gray-700 transition-colors shadow-sm overflow-hidden relative flex flex-col justify-end group-hover:-translate-y-1 duration-300">
+                  <div className={`absolute inset-0 bg-gradient-to-br ${cat.color} opacity-0 group-hover:opacity-5 rounded-[24px] transition-opacity duration-500`} />
+                  <div className="w-full h-full p-6 rounded-[24px] bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 hover:border-gray-300 dark:hover:border-gray-700 transition-colors shadow-sm overflow-hidden relative flex flex-col justify-end group-hover:-translate-y-1 duration-300">
                     
                     {/* Background Icon Watermark */}
-                    <div className="absolute -right-8 -top-8 opacity-5 dark:opacity-[0.03] transform group-hover:scale-110 group-hover:-rotate-12 transition-transform duration-700">
-                      {React.cloneElement(cat.icon as React.ReactElement, { className: 'w-64 h-64' })}
+                    <div className="absolute -right-6 -top-6 opacity-5 dark:opacity-[0.03] transform group-hover:scale-110 group-hover:-rotate-12 transition-transform duration-700">
+                      {React.cloneElement(cat.icon as React.ReactElement, { className: 'w-48 h-48' })}
                     </div>
 
                     <div className="relative z-10">
-                      <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${cat.color} ${cat.shadow} shadow-lg text-white flex items-center justify-center mb-6 transform group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300`}>
-                        {cat.icon}
+                      <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${cat.color} ${cat.shadow} shadow-lg text-white flex items-center justify-center mb-4 transform group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300`}>
+                        {React.cloneElement(cat.icon as React.ReactElement, { className: 'w-6 h-6' })}
                       </div>
-                      <h3 className="text-3xl font-display font-bold mb-3 tracking-tight text-gray-900 dark:text-white">{cat.title}</h3>
-                      <p className="text-lg text-gray-600 dark:text-gray-400 font-medium">{cat.description}</p>
+                      <h3 className="text-xl font-display font-bold mb-2 tracking-tight text-gray-900 dark:text-white">{cat.title}</h3>
+                      <p className="text-sm text-gray-600 dark:text-gray-400 font-medium">{cat.description}</p>
                     </div>
                   </div>
                 </Link>
@@ -228,14 +248,14 @@ export default function HomePage() {
               
               {/* Interactive Visual Element */}
               <div className="hidden lg:flex items-center justify-center relative">
-                <div className="absolute w-[500px] h-[500px] rounded-full border border-white/10 border-dashed animate-[spin_40s_linear_infinite]" />
-                <div className="absolute w-[350px] h-[350px] rounded-full border border-primary-500/20 animate-[spin_30s_linear_infinite_reverse]" />
+                <div className="absolute w-[300px] h-[300px] rounded-full border border-white/10 border-dashed animate-[spin_40s_linear_infinite]" />
+                <div className="absolute w-[200px] h-[200px] rounded-full border border-primary-500/20 animate-[spin_30s_linear_infinite_reverse]" />
                 
-                <div className="w-64 h-64 bg-gray-800 rounded-3xl border border-white/10 shadow-2xl overflow-hidden relative group">
+                <div className="w-40 h-40 bg-gray-800 rounded-3xl border border-white/10 shadow-2xl overflow-hidden relative group">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <div className="absolute inset-0 flex flex-col items-center justify-center text-white space-y-4">
-                     <Layers className="w-16 h-16 text-primary-400 animate-bounce" />
-                     <span className="font-mono text-sm tracking-widest text-primary-300 uppercase font-bold">WASM Engine Active</span>
+                     <Layers className="w-10 h-10 text-primary-400 animate-bounce" />
+                     <span className="font-mono text-[10px] tracking-widest text-primary-300 uppercase font-bold">WASM Engine Active</span>
                   </div>
                 </div>
               </div>
@@ -249,7 +269,7 @@ export default function HomePage() {
         <Container>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { label: "Active Tools", value: "70+" },
+              { label: "Active Tools", value: "100+" },
               { label: "Server Uploads", value: "0" },
               { label: "Cost", value: "Free" },
               { label: "Open Source", value: "100%" },
