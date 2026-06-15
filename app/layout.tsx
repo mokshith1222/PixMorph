@@ -19,18 +19,36 @@ const plusJakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL('https://pixmorph.com'),
   title: {
-    default: 'PixMorph - 70+ Free Browser-Based Image, Audio & PDF Tools',
+    default: 'PixMorph - 100+ Free Browser-Based Image, Audio & PDF Tools',
     template: '%s | PixMorph',
   },
   description:
-    'Access 70+ free, secure online tools for image, audio, and PDF editing. PixMorph runs entirely in your browser—your files never leave your device.',
-  keywords: ['online image tools', 'audio trimmer', 'PDF compressor', 'privacy-first utilities', 'browser-based processing', 'free digital tools'],
+    'Access 100+ free, secure online tools for image, audio, and PDF editing. PixMorph runs entirely in your browser—your files never leave your device.',
+  keywords: [
+    'free online tools',
+    'image converter',
+    'pdf compressor',
+    'video compressor',
+    'audio editor',
+    'pdf editor',
+    'video cropper',
+    'image resizer',
+    'browser based tools',
+    'local first tools',
+    'file converter',
+    'web tools',
+    'developer tools',
+    'design tools',
+    'free logo maker',
+    'privacy-first utilities',
+    'free digital tools'
+  ],
   openGraph: {
     title: {
-      default: 'PixMorph - 70+ Free Browser-Based Image, Audio & PDF Tools',
+      default: 'PixMorph - 100+ Free Browser-Based Image, Audio & PDF Tools',
       template: '%s | PixMorph',
     },
-    description: 'Access 70+ free, secure online tools for image, audio, and PDF editing. PixMorph runs entirely in your browser—your files never leave your device.',
+    description: 'Access 100+ free, secure online tools for image, audio, and PDF editing. PixMorph runs entirely in your browser—your files never leave your device.',
     url: 'https://pixmorph.com',
     siteName: 'PixMorph',
     images: [
@@ -47,10 +65,10 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: {
-      default: 'PixMorph - 70+ Free Browser-Based Image, Audio & PDF Tools',
+      default: 'PixMorph - 100+ Free Browser-Based Image, Audio & PDF Tools',
       template: '%s | PixMorph',
     },
-    description: 'Access 70+ free, secure online tools for image, audio, and PDF editing. PixMorph runs entirely in your browser—your files never leave your device.',
+    description: 'Access 100+ free, secure online tools for image, audio, and PDF editing. PixMorph runs entirely in your browser—your files never leave your device.',
     images: ['https://pixmorph.com/og-image.jpg'],
   },
   verification: {

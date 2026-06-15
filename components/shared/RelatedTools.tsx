@@ -36,7 +36,7 @@ export function RelatedTools() {
           </div>
           <div className="text-center mt-12">
             <Link href="/tools" className="inline-flex items-center gap-2 px-6 py-3 min-h-[44px] rounded-full bg-primary-50 dark:bg-primary-900/20 text-primary-700 dark:text-primary-300 font-bold hover:bg-primary-100 dark:hover:bg-primary-900/40 transition-colors active:scale-95">
-              Explore all 70+ tools →
+              Explore all 100+ tools →
             </Link>
           </div>
         </div>

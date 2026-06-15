@@ -206,40 +206,40 @@ export default function HomePage() {
       </section>
 
       {/* Feature Deep Dive */}
-      <section className="py-24 relative overflow-hidden">
+      <section className="py-8 relative overflow-hidden">
         <Container>
-          <div className="bg-gray-900 rounded-[48px] p-10 md:p-20 relative overflow-hidden shadow-2xl">
+          <div className="bg-gray-900 rounded-3xl p-6 md:p-10 relative overflow-hidden shadow-2xl">
             {/* Glossy overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-50 pointer-events-none" />
             <div className="absolute -top-40 -right-40 w-96 h-96 bg-primary-500/30 blur-[128px] rounded-full pointer-events-none" />
             
-            <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+            <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
               <div>
-                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/10 border border-white/20 text-white text-sm font-semibold mb-8">
-                  <Lock className="w-4 h-4" /> Client-Side First
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-white/10 border border-white/20 text-white text-xs font-semibold mb-4">
+                  <Lock className="w-3 h-3" /> Client-Side First
                 </div>
-                <h2 className="text-4xl md:text-6xl font-display font-bold text-white leading-tight mb-8">
+                <h2 className="text-3xl md:text-4xl font-display font-bold text-white leading-tight mb-4">
                   Your files stay on <br className="hidden md:block" />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-cyan-400">your machine.</span>
                 </h2>
                 
-                <div className="space-y-8">
+                <div className="space-y-4">
                   {[
-                    { icon: <Cpu />, title: "WebAssembly Accelerated", desc: "We compile C++ and Rust engines (like FFmpeg and OpenCV) to run directly in your browser." },
-                    { icon: <Zap />, title: "Zero Upload Latency", desc: "No more waiting for files to upload to a remote server. Processing begins the millisecond you drop the file." },
-                    { icon: <Shield />, title: "Cryptographic Privacy", desc: "By design, it is impossible for us to see, store, or share your data. The server only delivers the app UI." }
+                    { icon: <Cpu className="w-5 h-5" />, title: "WebAssembly Accelerated", desc: "We compile C++ and Rust engines (like FFmpeg and OpenCV) to run directly in your browser." },
+                    { icon: <Zap className="w-5 h-5" />, title: "Zero Upload Latency", desc: "No more waiting for files to upload to a remote server. Processing begins the millisecond you drop the file." },
+                    { icon: <Shield className="w-5 h-5" />, title: "Cryptographic Privacy", desc: "By design, it is impossible for us to see, store, or share your data. The server only delivers the app UI." }
                   ].map((feature, i) => (
                     <div 
                       key={i} 
-                      className="flex gap-6 animate-slide-up"
-                      style={{ animationDelay: `${i * 200}ms` }}
+                      className="flex gap-4 animate-slide-up"
+                      style={{ animationDelay: `${i * 100}ms` }}
                     >
-                      <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400">
+                      <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400">
                         {feature.icon}
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold text-white mb-2">{feature.title}</h3>
-                        <p className="text-gray-400 leading-relaxed text-lg">{feature.desc}</p>
+                        <h3 className="text-lg font-bold text-white mb-1">{feature.title}</h3>
+                        <p className="text-gray-400 leading-relaxed text-sm">{feature.desc}</p>
                       </div>
                     </div>
                   ))}
@@ -248,14 +248,14 @@ export default function HomePage() {
               
               {/* Interactive Visual Element */}
               <div className="hidden lg:flex items-center justify-center relative">
-                <div className="absolute w-[300px] h-[300px] rounded-full border border-white/10 border-dashed animate-[spin_40s_linear_infinite]" />
-                <div className="absolute w-[200px] h-[200px] rounded-full border border-primary-500/20 animate-[spin_30s_linear_infinite_reverse]" />
+                <div className="absolute w-[250px] h-[250px] rounded-full border border-white/10 border-dashed animate-[spin_40s_linear_infinite]" />
+                <div className="absolute w-[150px] h-[150px] rounded-full border border-primary-500/20 animate-[spin_30s_linear_infinite_reverse]" />
                 
-                <div className="w-40 h-40 bg-gray-800 rounded-3xl border border-white/10 shadow-2xl overflow-hidden relative group">
+                <div className="w-32 h-32 bg-gray-800 rounded-2xl border border-white/10 shadow-2xl overflow-hidden relative group">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                  <div className="absolute inset-0 flex flex-col items-center justify-center text-white space-y-4">
-                     <Layers className="w-10 h-10 text-primary-400 animate-bounce" />
-                     <span className="font-mono text-[10px] tracking-widest text-primary-300 uppercase font-bold">WASM Engine Active</span>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center text-white space-y-2">
+                     <Layers className="w-8 h-8 text-primary-400 animate-bounce" />
+                     <span className="font-mono text-[8px] tracking-widest text-primary-300 uppercase font-bold">WASM Engine</span>
                   </div>
                 </div>
               </div>
@@ -263,6 +263,80 @@ export default function HomePage() {
           </div>
         </Container>
       </section>
+
+      {/* SEO & About Section */}
+      <section className="py-24 relative overflow-hidden">
+        {/* Dynamic Background */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary-50/30 to-transparent dark:via-primary-900/10 pointer-events-none" />
+        <div className="absolute -left-40 top-40 w-96 h-96 bg-purple-500/20 blur-[120px] rounded-full pointer-events-none mix-blend-multiply dark:mix-blend-screen" />
+        
+        <Container>
+          <div className="relative z-10 max-w-4xl mx-auto text-center mb-20">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-50 dark:bg-primary-500/10 text-primary-600 dark:text-primary-400 font-bold text-sm mb-6 shadow-sm border border-primary-100 dark:border-primary-500/20">
+              <Star className="w-4 h-4" /> Why Choose Us
+            </div>
+            <h2 className="text-4xl md:text-5xl font-display font-extrabold mb-6">
+              The Ultimate Suite of <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-purple-500">Free Online Tools</span>
+            </h2>
+            <p className="text-xl text-gray-600 dark:text-gray-400 leading-relaxed mb-6 font-medium">
+              Welcome to <strong>PixMorph</strong>, your one-stop destination for over 100 completely free, browser-based digital utilities. Whether you need an incredibly fast <strong>image converter</strong>, a secure <strong>PDF compressor</strong>, a precise <strong>video cropper</strong>, or a dynamic <strong>audio editor</strong>, PixMorph delivers professional-grade results instantly. 
+            </p>
+            <p className="text-lg text-gray-500 dark:text-gray-400 leading-relaxed">
+              Unlike traditional cloud services, PixMorph utilizes powerful WebAssembly technology to process everything locally on your device. This <strong>local-first</strong> approach means zero file uploads, zero wait times, and 100% cryptographic privacy. From <strong>design makers</strong> like our free logo creator to vital <strong>developer tools</strong> like our JSON minifier and base64 encoder, PixMorph equips you with everything you need—fast, free, and secure.
+            </p>
+          </div>
+
+          {/* FAQs */}
+          <div className="relative z-10 max-w-5xl mx-auto">
+            <h3 className="text-3xl font-display font-bold mb-12 text-center text-gray-900 dark:text-white">Frequently Asked Questions</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              
+              <div className="group bg-white dark:bg-gray-900 p-8 rounded-3xl border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-xl hover:shadow-primary-500/10 hover:border-primary-300 dark:hover:border-primary-700 transition-all duration-300 hover:-translate-y-1">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-400 to-emerald-500 text-white flex items-center justify-center mb-6 shadow-lg shadow-green-500/20 group-hover:scale-110 transition-transform">
+                  <Star className="w-6 h-6" />
+                </div>
+                <h4 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">Is PixMorph completely free?</h4>
+                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                  Yes! All 100+ of our online tools, from the PDF editor to the image resizer, are 100% free to use. There are no hidden fees, subscriptions, or watermarks.
+                </p>
+              </div>
+
+              <div className="group bg-white dark:bg-gray-900 p-8 rounded-3xl border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-xl hover:shadow-primary-500/10 hover:border-primary-300 dark:hover:border-primary-700 transition-all duration-300 hover:-translate-y-1">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 text-white flex items-center justify-center mb-6 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform">
+                  <Shield className="w-6 h-6" />
+                </div>
+                <h4 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">Are my uploaded files secure?</h4>
+                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                  Your files are perfectly secure because they never actually leave your device. All processing happens within your own web browser utilizing WebAssembly. We never see, store, or upload your data to our servers.
+                </p>
+              </div>
+
+              <div className="group bg-white dark:bg-gray-900 p-8 rounded-3xl border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-xl hover:shadow-primary-500/10 hover:border-primary-300 dark:hover:border-primary-700 transition-all duration-300 hover:-translate-y-1">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 text-white flex items-center justify-center mb-6 shadow-lg shadow-purple-500/20 group-hover:scale-110 transition-transform">
+                  <Layers className="w-6 h-6" />
+                </div>
+                <h4 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">What formats do you support?</h4>
+                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                  We support a massive range of formats. You can convert HEIC to JPG, compress MP4 videos, trim MP3 audio, encode HTML, decode Base64, and split or merge PDFs seamlessly.
+                </p>
+              </div>
+
+              <div className="group bg-white dark:bg-gray-900 p-8 rounded-3xl border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-xl hover:shadow-primary-500/10 hover:border-primary-300 dark:hover:border-primary-700 transition-all duration-300 hover:-translate-y-1">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-400 to-rose-500 text-white flex items-center justify-center mb-6 shadow-lg shadow-orange-500/20 group-hover:scale-110 transition-transform">
+                  <Globe2 className="w-6 h-6" />
+                </div>
+                <h4 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">Does this work on mobile devices?</h4>
+                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                  Absolutely. Since PixMorph runs directly in the browser, our web tools work seamlessly on mobile phones, tablets, and desktop computers alike. No app installation required!
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </Container>
+      </section>
+
 
       {/* Stats Section */}
       <section className="py-12 border-t border-black/5 dark:border-white/5">
