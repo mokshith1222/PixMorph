@@ -32,7 +32,7 @@ export function PdfToSvg() {
       const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
         <text x="10" y="20" font-family="Arial" font-size="14">${text.substring(0, 100)}...</text>
       </svg>`
-      const blob = new Blob([svg], { type: 'image/svg+xml' })
+      const blob = new Blob([svg as any], { type: 'image/svg+xml' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

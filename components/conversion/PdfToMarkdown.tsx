@@ -30,7 +30,7 @@ export function PdfToMarkdown() {
     try {
       const text = await extractTextFromPdf(file)
       const md = text.split('\n').map(line => line.trim() ? `${line}\n\n` : '').join('')
-      const blob = new Blob([md], { type: 'text/markdown' })
+      const blob = new Blob([md as any], { type: 'text/markdown' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

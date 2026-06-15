@@ -30,7 +30,7 @@ export function PdfToJson() {
     try {
       const text = await extractTextFromPdf(file)
       const json = JSON.stringify({ content: text }, null, 2)
-      const blob = new Blob([json], { type: 'application/json' })
+      const blob = new Blob([json as any], { type: 'application/json' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

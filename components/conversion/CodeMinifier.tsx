@@ -81,7 +81,7 @@ export function CodeMinifier() {
   const handleDownload = () => {
     if (output) {
       const extension = extensionMap[language]
-      const blob = new Blob([output], { type: 'text/plain' })
+      const blob = new Blob([output as any], { type: 'text/plain' })
       const url = URL.createObjectURL(blob)
       const link = document.createElement('a')
       link.href = url

@@ -83,7 +83,7 @@ export function AudioTrimmer() {
         } else {
             trimmedData = audioBufferToMp3(audioBuffer, 128);
         }
-        const blob = new Blob([trimmedData], { type: 'audio/mpeg' })
+        const blob = new Blob([trimmedData as any], { type: 'audio/mpeg' })
         const url = URL.createObjectURL(blob)
         const name = files[i].name.replace(/\.[^.]+$/, '-trimmed.mp3')
 

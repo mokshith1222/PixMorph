@@ -30,7 +30,7 @@ export function PdfToMobi() {
     try {
       const text = await extractTextFromPdf(file)
       const fakeMobi = `MOBI-Format-Placeholder: ${text.substring(0, 200)}`
-      const blob = new Blob([fakeMobi], { type: 'application/x-mobipocket-ebook' })
+      const blob = new Blob([fakeMobi as any], { type: 'application/x-mobipocket-ebook' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

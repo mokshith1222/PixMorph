@@ -30,7 +30,7 @@ export function PdfToTxt() {
     try {
       const text = await extractTextFromPdf(file)
       
-      const blob = new Blob([text], { type: 'text/plain;charset=utf-8' })
+      const blob = new Blob([text as any], { type: 'text/plain;charset=utf-8' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

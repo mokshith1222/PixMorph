@@ -25,7 +25,7 @@ export function PDFToExcel() {
       for (let i = 0; i < files.length; i++) {
         const text = await extractTextFromPdf(files[i])
         const csv = text.split('\n').map((line) => `"${line.replace(/"/g, '""')}"`).join('\n')
-        const blob = new Blob([csv], { type: 'text/csv' })
+        const blob = new Blob([csv as any], { type: 'text/csv' })
         results.push({
           name: files[i].name.replace(/\.pdf$/i, '.csv'),
           url: URL.createObjectURL(blob),

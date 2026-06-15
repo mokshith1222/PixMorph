@@ -38,7 +38,7 @@ export function SQLMinifier() {
 
   const handleDownload = () => {
     if (output) {
-      const blob = new Blob([output], { type: 'text/sql' })
+      const blob = new Blob([output as any], { type: 'text/sql' })
       const url = URL.createObjectURL(blob)
       const link = document.createElement('a')
       link.href = url

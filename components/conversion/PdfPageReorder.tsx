@@ -36,7 +36,7 @@ export function PdfPageReorder() {
       const copiedPages = await newPdfDoc.copyPages(pdfDoc, indices)
       copiedPages.forEach((page) => newPdfDoc.addPage(page))
       const pdfBytes = await newPdfDoc.save()
-      const blob = new Blob([pdfBytes], { type: 'application/pdf' })
+      const blob = new Blob([pdfBytes as any], { type: 'application/pdf' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

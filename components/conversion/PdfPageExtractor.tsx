@@ -35,7 +35,7 @@ export function PdfPageExtractor() {
       const [firstPage] = await newPdfDoc.copyPages(pdfDoc, [0])
       newPdfDoc.addPage(firstPage)
       const pdfBytes = await newPdfDoc.save()
-      const blob = new Blob([pdfBytes], { type: 'application/pdf' })
+      const blob = new Blob([pdfBytes as any], { type: 'application/pdf' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

@@ -50,7 +50,7 @@ export function VideoToMP3() {
         const dummyAudio = new Uint8Array([
           0x49, 0x44, 0x33, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
         ]).buffer
-        const blob = new Blob([dummyAudio], { type: 'audio/mpeg' })
+        const blob = new Blob([dummyAudio as any], { type: 'audio/mpeg' })
         const url = URL.createObjectURL(blob)
         const name = files[i].name.replace(/\.[^.]+$/, '.mp3')
 

@@ -40,7 +40,7 @@ export function PDFToWord() {
           continue
         }
         const rtf = textToRtf(text)
-        const blob = new Blob([rtf], { type: 'application/rtf' })
+        const blob = new Blob([rtf as any], { type: 'application/rtf' })
         results.push({
           name: files[i].name.replace(/\.pdf$/i, '.rtf'),
           url: URL.createObjectURL(blob),

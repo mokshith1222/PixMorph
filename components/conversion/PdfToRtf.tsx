@@ -30,7 +30,7 @@ export function PdfToRtf() {
     try {
       const text = await extractTextFromPdf(file)
       const rtf = textToRtf(text)
-      const blob = new Blob([rtf], { type: 'application/rtf' })
+      const blob = new Blob([rtf as any], { type: 'application/rtf' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

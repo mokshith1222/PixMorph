@@ -30,7 +30,7 @@ export function PdfToHtml() {
     try {
       const text = await extractTextFromPdf(file)
       const html = `<!DOCTYPE html><html><head><title>PDF to HTML</title></head><body><pre>${text}</pre></body></html>`
-      const blob = new Blob([html], { type: 'text/html' })
+      const blob = new Blob([html as any], { type: 'text/html' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

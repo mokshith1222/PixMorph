@@ -58,7 +58,7 @@ export function WAVToMP3() {
         const audioBuffer = await audioContext.decodeAudioData(arrayBuffer)
 
         const mp3Data = audioBufferToMp3(audioBuffer, 192)
-        const blob = new Blob([mp3Data], { type: 'audio/mpeg' })
+        const blob = new Blob([mp3Data as any], { type: 'audio/mpeg' })
         const url = URL.createObjectURL(blob)
         const name = files[i].name.replace(/\.wav$/i, '.mp3')
 

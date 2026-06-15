@@ -67,7 +67,7 @@ export function VolumeBooster() {
             boostedBuffer.getChannelData(ch).set(boostedChannel);
         }
         const boostedData = audioBufferToMp3(boostedBuffer, 128);
-        const blob = new Blob([boostedData], { type: 'audio/mpeg' })
+        const blob = new Blob([boostedData as any], { type: 'audio/mpeg' })
         const url = URL.createObjectURL(blob)
         const name = files[i].name.replace(/\.[^.]+$/, '-boosted.mp3')
 

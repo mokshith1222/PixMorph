@@ -31,7 +31,7 @@ export function PdfToEpub() {
       const text = await extractTextFromPdf(file)
       // Basic fallback since epub generation purely client-side is complex
       const fakeEpub = `<?xml version="1.0" encoding="UTF-8"?><epub><content>${text.substring(0, 200)}</content></epub>`
-      const blob = new Blob([fakeEpub], { type: 'application/epub+zip' })
+      const blob = new Blob([fakeEpub as any], { type: 'application/epub+zip' })
       const url = URL.createObjectURL(blob)
       setResult(url)
       

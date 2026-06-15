@@ -56,7 +56,7 @@ export function AudioCompressor() {
         const audioBuffer = await audioContext.decodeAudioData(arrayBuffer)
 
         const compressedData = audioBufferToMp3(audioBuffer, 64) // Compress to 64kbps
-        const blob = new Blob([compressedData], { type: 'audio/mpeg' })
+        const blob = new Blob([compressedData as any], { type: 'audio/mpeg' })
         const url = URL.createObjectURL(blob)
         const name = files[i].name.replace(/\.[^.]+$/, '-compressed.mp3')
 
