@@ -5,7 +5,7 @@ import { ImageBlurrer } from '@/components/conversion/ImageBlurrer'
 
 export const metadata: Metadata = {
   title: 'Image Blur Tool - Free Online Tool | PixMorph',
-  description: 'Apply Gaussian blur to your images online for free. Adjust intensity with a simple slider.',
+  description: 'Apply Gaussian blur to your images online for free. Adjust intensity with a simple slider. Fast, free, and secure browser-based tool. Your files never...',
 }
 
 export default function ImageBlurrerPage() {

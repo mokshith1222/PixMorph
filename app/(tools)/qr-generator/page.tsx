@@ -5,7 +5,7 @@ import { QRGenerator } from '@/components/conversion/QRGenerator'
 
 export const metadata: Metadata = {
   title: 'QR Code Generator - Free Online Tool | PixMorph',
-  description: 'Generate QR codes instantly for any URL or text. Free online tool for creating scannable QR codes.',
+  description: 'Generate QR codes instantly for any URL or text. Free online tool for creating scannable QR codes. Fast, free, and secure browser-based tool. Your files...',
 }
 
 export default function QRGeneratorPage() {

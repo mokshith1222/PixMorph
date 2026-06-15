@@ -23,8 +23,36 @@ export const metadata: Metadata = {
     template: '%s | PixMorph',
   },
   description:
-    'Access over 70 free, secure, and lightning-fast online tools for image compression, audio editing, and PDF management. PixMorph runs entirely in your browser, ensuring your files never leave your device.',
+    'Access 70+ free, secure online tools for image, audio, and PDF editing. PixMorph runs entirely in your browser—your files never leave your device.',
   keywords: ['online image tools', 'audio trimmer', 'PDF compressor', 'privacy-first utilities', 'browser-based processing', 'free digital tools'],
+  openGraph: {
+    title: {
+      default: 'PixMorph - 70+ Free Browser-Based Image, Audio & PDF Tools',
+      template: '%s | PixMorph',
+    },
+    description: 'Access 70+ free, secure online tools for image, audio, and PDF editing. PixMorph runs entirely in your browser—your files never leave your device.',
+    url: 'https://pixmorph.com',
+    siteName: 'PixMorph',
+    images: [
+      {
+        url: 'https://pixmorph.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'PixMorph - Free Online Tools',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: {
+      default: 'PixMorph - 70+ Free Browser-Based Image, Audio & PDF Tools',
+      template: '%s | PixMorph',
+    },
+    description: 'Access 70+ free, secure online tools for image, audio, and PDF editing. PixMorph runs entirely in your browser—your files never leave your device.',
+    images: ['https://pixmorph.com/og-image.jpg'],
+  },
   verification: {
     google: 'googlefbfa23743896d7f7',
   },

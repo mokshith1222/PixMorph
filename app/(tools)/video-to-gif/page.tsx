@@ -5,7 +5,7 @@ import { VideoToGIF } from '@/components/conversion/VideoToGIF'
 
 export const metadata: Metadata = {
   title: 'Video to GIF - Free Online Tool | PixMorph',
-  description: 'Convert video to GIF online for free. Create animated GIFs from video clips easily.',
+  description: 'Convert video to GIF online for free. Create animated GIFs from video clips easily. Fast, free, and secure browser-based tool. Your files never leave your...',
 }
 
 export default function VideoToGifPage() {

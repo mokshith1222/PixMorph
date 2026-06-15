@@ -5,7 +5,7 @@ import { SQLMinifier } from '@/components/conversion/SQLMinifier'
 
 export const metadata: Metadata = {
   title: 'SQL Minifier - Free Online Tool | PixMorph',
-  description: 'Minify SQL queries online for free. Compress SQL code by removing unnecessary whitespace.',
+  description: 'Minify SQL queries online for free. Compress SQL code by removing unnecessary whitespace. Fast, free, and secure browser-based tool. Your files never leave...',
 }
 
 export default function SqlMinifierPage() {

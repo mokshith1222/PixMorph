@@ -11,25 +11,25 @@ export function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8 mb-12">
           <div className="col-span-2">
             <Logo />
-            <p className="mt-5 text-sm text-gray-500 dark:text-gray-400 leading-relaxed pr-6">
+            <p className="mt-5 text-sm text-gray-600 dark:text-gray-300 leading-relaxed pr-6">
               70+ free, fast, and secure browser-based tools. Your privacy is our priority—everything happens locally in your browser. No uploads, no limits.
             </p>
             {/* Social icons */}
             <div className="flex gap-3 mt-6">
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
-                className="w-10 h-10 rounded-xl bg-sky-50 dark:bg-sky-900/20 border border-sky-200 dark:border-sky-800 flex items-center justify-center text-sky-500 hover:bg-sky-100 dark:hover:bg-sky-900/40 hover:scale-110 transition-all">
+                className="w-11 h-11 rounded-xl bg-sky-50 dark:bg-sky-900/20 border border-sky-200 dark:border-sky-800 flex items-center justify-center text-sky-500 hover:bg-sky-100 dark:hover:bg-sky-900/40 hover:scale-110 transition-all">
                 <Twitter className="w-4 h-4" />
               </a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
-                className="w-10 h-10 rounded-xl bg-pink-50 dark:bg-pink-900/20 border border-pink-200 dark:border-pink-800 flex items-center justify-center text-pink-500 hover:bg-pink-100 dark:hover:bg-pink-900/40 hover:scale-110 transition-all">
+                className="w-11 h-11 rounded-xl bg-pink-50 dark:bg-pink-900/20 border border-pink-200 dark:border-pink-800 flex items-center justify-center text-pink-500 hover:bg-pink-100 dark:hover:bg-pink-900/40 hover:scale-110 transition-all">
                 <Instagram className="w-4 h-4" />
               </a>
-              <a href="https://github.com/mokshith1222/PixMorph" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
-                className="w-10 h-10 rounded-xl bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 hover:scale-110 transition-all">
+              <a href="https://github.com/mokshith1222/PixMorph" target="_blank" rel="noopener noreferrer" aria-label="PixMorph GitHub Repository"
+                className="w-11 h-11 rounded-xl bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 hover:scale-110 transition-all">
                 <Github className="w-4 h-4" />
               </a>
               <a href="mailto:mokshithnaik932@gmail.com" aria-label="Email"
-                className="w-10 h-10 rounded-xl bg-primary-50 dark:bg-primary-900/20 border border-primary-200 dark:border-primary-800 flex items-center justify-center text-primary-600 hover:bg-primary-100 dark:hover:bg-primary-900/40 hover:scale-110 transition-all">
+                className="w-11 h-11 rounded-xl bg-primary-50 dark:bg-primary-900/20 border border-primary-200 dark:border-primary-800 flex items-center justify-center text-primary-600 hover:bg-primary-100 dark:hover:bg-primary-900/40 hover:scale-110 transition-all">
                 <Mail className="w-4 h-4" />
               </a>
             </div>
@@ -49,7 +49,7 @@ export function Footer() {
                 ['Image to B&W', '/image-to-bw'],
                 ['Image Blurrer', '/image-blurrer'],
               ].map(([name, href]) => (
-                <li key={href}><Link href={href} className="text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{name}</Link></li>
+                <li key={href}><Link href={href} className="inline-block py-1.5 text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{name}</Link></li>
               ))}
             </ul>
           </div>
@@ -65,7 +65,7 @@ export function Footer() {
                 ['MP3 to WAV', '/mp3-to-wav'],
                 ['WAV to MP3', '/wav-to-mp3'],
               ].map(([name, href]) => (
-                <li key={href}><Link href={href} className="text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{name}</Link></li>
+                <li key={href}><Link href={href} className="inline-block py-1.5 text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{name}</Link></li>
               ))}
             </ul>
             <h3 className="font-semibold text-gray-900 dark:text-white mb-5 text-sm uppercase tracking-wide">PDF</h3>
@@ -76,7 +76,7 @@ export function Footer() {
                 ['PDF Compressor', '/pdf-compressor'],
                 ['PDF Merger', '/pdf-merger'],
               ].map(([name, href]) => (
-                <li key={href}><Link href={href} className="text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{name}</Link></li>
+                <li key={href}><Link href={href} className="inline-block py-1.5 text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{name}</Link></li>
               ))}
             </ul>
           </div>
@@ -93,7 +93,7 @@ export function Footer() {
                 ['Base64 Encoder', '/base64-encoder'],
                 ['UUID Generator', '/uuid-generator'],
               ].map(([name, href]) => (
-                <li key={href}><Link href={href} className="text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{name}</Link></li>
+                <li key={href}><Link href={href} className="inline-block py-1.5 text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{name}</Link></li>
               ))}
             </ul>
           </div>
@@ -108,7 +108,7 @@ export function Footer() {
                 ['Terms of Service', '/terms'],
                 ['Contact Us', '/contact'],
               ].map(([name, href]) => (
-                <li key={href}><Link href={href} className="text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{name}</Link></li>
+                <li key={href}><Link href={href} className="inline-block py-1.5 text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{name}</Link></li>
               ))}
             </ul>
 
@@ -120,12 +120,12 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-8 border-t border-gray-100 dark:border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400 dark:text-gray-500">
+        <div className="pt-8 border-t border-gray-100 dark:border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500 dark:text-gray-400">
           <p>&copy; {new Date().getFullYear()} PixMorph. All rights reserved. Designed for speed, built for privacy.</p>
           <div className="flex items-center gap-6">
-            <Link href="/privacy" className="hover:text-primary-500 transition-colors">Privacy</Link>
-            <Link href="/terms" className="hover:text-primary-500 transition-colors">Terms</Link>
-            <Link href="/contact" className="hover:text-primary-500 transition-colors">Contact</Link>
+            <Link href="/privacy" className="inline-block py-2 hover:text-primary-500 transition-colors">Privacy</Link>
+            <Link href="/terms" className="inline-block py-2 hover:text-primary-500 transition-colors">Terms</Link>
+            <Link href="/contact" className="inline-block py-2 hover:text-primary-500 transition-colors">Contact</Link>
           </div>
         </div>
       </Container>

@@ -5,7 +5,7 @@ import { HeicConverter } from '@/components/conversion/HeicConverter'
 
 export const metadata: Metadata = {
   title: 'HEIC to JPG - Free Online Tool | PixMorph',
-  description: 'Convert iPhone HEIC photos to JPG format online for free. Fast, secure, and no software installation required.',
+  description: 'Convert iPhone HEIC photos to JPG format online for free. Fast, secure, and no software installation required. Fast, free, and secure browser-based tool....',
 }
 
 export default function HeicToJpgPage() {

@@ -5,7 +5,7 @@ import { Base64Encoder } from '@/components/conversion/Base64Encoder'
 
 export const metadata: Metadata = {
   title: 'Base64 Encoder - Free Online Tool | PixMorph',
-  description: 'Encode text or files to Base64 format. Free online tool for Base64 encoding.',
+  description: 'Encode text or files to Base64 format. Free online tool for Base64 encoding. Fast, free, and secure browser-based tool. Your files never leave your device.',
 }
 
 export default function Base64EncoderPage() {

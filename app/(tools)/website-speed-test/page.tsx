@@ -5,7 +5,7 @@ import { WebsiteSpeedTest } from '@/components/conversion/WebsiteSpeedTest'
 
 export const metadata: Metadata = {
   title: 'Website Speed Test - Free Online Tool | PixMorph',
-  description: 'Test the speed and performance of any website. Free online tool for checking load times.',
+  description: 'Test the speed and performance of any website. Free online tool for checking load times. Fast, free, and secure browser-based tool. Your files never leave...',
 }
 
 export default function WebsiteSpeedTestPage() {

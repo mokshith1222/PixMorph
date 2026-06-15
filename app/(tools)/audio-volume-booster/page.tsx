@@ -5,7 +5,7 @@ import { VolumeBooster } from '@/components/conversion/VolumeBooster'
 
 export const metadata: Metadata = {
   title: 'Volume Booster - Free Online Tool | PixMorph',
-  description: 'Boost audio volume online for free. Increase the loudness of your audio files easily.',
+  description: 'Boost audio volume online for free. Increase the loudness of your audio files easily. Fast, free, and secure browser-based tool. Your files never leave...',
 }
 
 export default function AudioVolumeBoosterPage() {

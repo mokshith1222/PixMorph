@@ -5,7 +5,7 @@ import { ImageToPainting } from '@/components/conversion/ImageToPainting'
 
 export const metadata: Metadata = {
   title: 'Image to Painting - Free Online Tool | PixMorph',
-  description: 'Convert any image to an oil painting style. Free online tool for creating paintings from photos.',
+  description: 'Convert any image to an oil painting style. Free online tool for creating paintings from photos. Fast, free, and secure browser-based tool. Your files...',
 }
 
 export default function ImageToPaintingPage() {

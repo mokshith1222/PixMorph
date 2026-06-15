@@ -5,7 +5,7 @@ import { PDFSigner } from '@/components/conversion/PDFSigner'
 
 export const metadata: Metadata = {
   title: 'PDF Signer - Free Online Tool | PixMorph',
-  description: 'Sign PDF documents online for free. Add your signature to PDF files quickly and securely.',
+  description: 'Sign PDF documents online for free. Add your signature to PDF files quickly and securely. Fast, free, and secure browser-based tool. Your files never leave...',
 }
 
 export default function PdfSignerPage() {

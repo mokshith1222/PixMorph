@@ -5,7 +5,7 @@ import { WebsiteQR } from '@/components/conversion/WebsiteQR'
 
 export const metadata: Metadata = {
   title: 'Website QR Code - Free Online Tool | PixMorph',
-  description: 'Generate QR codes for any website URL. Free online tool for creating scannable QR codes.',
+  description: 'Generate QR codes for any website URL. Free online tool for creating scannable QR codes. Fast, free, and secure browser-based tool. Your files never leave...',
 }
 
 export default function WebsiteQRPage() {

@@ -5,7 +5,7 @@ import { WordCounter } from '@/components/conversion/WordCounter'
 
 export const metadata: Metadata = {
   title: 'Word Counter - Free Online Tool | PixMorph',
-  description: 'Count words, characters, lines, and sentences in any text. Free online tool for writers and editors.',
+  description: 'Count words, characters, lines, and sentences in any text. Free online tool for writers and editors. Fast, free, and secure browser-based tool. Your files...',
 }
 
 export default function WordCounterPage() {

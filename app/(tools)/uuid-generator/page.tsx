@@ -5,7 +5,7 @@ import { UUIDGenerator } from '@/components/conversion/UUIDGenerator'
 
 export const metadata: Metadata = {
   title: 'UUID Generator - Free Online Tool | PixMorph',
-  description: 'Generate universally unique identifiers (UUIDs). Free online tool for creating random UUIDs.',
+  description: 'Generate universally unique identifiers (UUIDs). Free online tool for creating random UUIDs. Fast, free, and secure browser-based tool. Your files never...',
 }
 
 export default function UUIDGeneratorPage() {

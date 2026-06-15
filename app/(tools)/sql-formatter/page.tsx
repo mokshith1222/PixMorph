@@ -5,7 +5,7 @@ import { SQLFormatter } from '@/components/conversion/SQLFormatter'
 
 export const metadata: Metadata = {
   title: 'SQL Formatter - Free Online Tool | PixMorph',
-  description: 'Format SQL queries online for free. Beautify and organize your SQL code for better readability.',
+  description: 'Format SQL queries online for free. Beautify and organize your SQL code for better readability. Fast, free, and secure browser-based tool. Your files never...',
 }
 
 export default function SqlFormatterPage() {

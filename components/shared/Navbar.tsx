@@ -19,12 +19,12 @@ export function Navbar() {
             >
               All Tools
             </Link>
-            <a href="https://github.com/mokshith1222/PixMorph" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-900 dark:hover:white transition-colors">
+            <a href="https://github.com/mokshith1222/PixMorph" target="_blank" rel="noopener noreferrer" aria-label="PixMorph GitHub Repository" className="text-gray-400 hover:text-gray-900 dark:hover:white transition-colors flex items-center justify-center min-w-[44px] min-h-[44px]">
               <Github className="w-5 h-5" />
             </a>
             <ThemeToggle />
             <Link href="/tools">
-              <button className="ml-2 px-5 py-2 rounded-full bg-primary-600 hover:bg-primary-700 text-white text-sm font-bold transition-all shadow-lg shadow-primary-500/20 active:scale-95">
+              <button className="ml-2 px-5 min-h-[44px] rounded-full bg-primary-600 hover:bg-primary-700 text-white text-sm font-bold transition-all shadow-lg shadow-primary-500/20 active:scale-95">
                 Try Now
               </button>
             </Link>

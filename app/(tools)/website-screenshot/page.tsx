@@ -5,7 +5,7 @@ import { WebsiteScreenshot } from '@/components/conversion/WebsiteScreenshot'
 
 export const metadata: Metadata = {
   title: 'Website Screenshot - Free Online Tool | PixMorph',
-  description: 'Capture screenshots of any website. Free online tool for taking full-page screenshots.',
+  description: 'Capture screenshots of any website. Free online tool for taking full-page screenshots. Fast, free, and secure browser-based tool. Your files never leave...',
 }
 
 export default function WebsiteScreenshotPage() {

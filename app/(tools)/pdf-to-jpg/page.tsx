@@ -5,7 +5,7 @@ import { PDFToJPG } from '@/components/conversion/PDFToJPG'
 
 export const metadata: Metadata = {
   title: 'PDF to JPG - Free Online Tool | PixMorph',
-  description: 'Convert PDF pages to JPG images online for free. Extract high-quality images from PDF documents.',
+  description: 'Convert PDF pages to JPG images online for free. Extract high-quality images from PDF documents. Fast, free, and secure browser-based tool. Your files...',
 }
 
 export default function PdfToJpgPage() {

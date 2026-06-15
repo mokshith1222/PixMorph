@@ -5,7 +5,7 @@ import { CodeBeautifier } from '@/components/conversion/CodeBeautifier'
 
 export const metadata: Metadata = {
   title: 'Code Beautifier - Free Online Tool | PixMorph',
-  description: 'Format and beautify code online for free. Make your code readable with proper indentation and styling.',
+  description: 'Format and beautify code online for free. Make your code readable with proper indentation and styling. Fast, free, and secure browser-based tool. Your...',
 }
 
 export default function CodeBeautifierPage() {

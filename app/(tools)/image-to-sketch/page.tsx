@@ -5,7 +5,7 @@ import { ImageToSketch } from '@/components/conversion/ImageToSketch'
 
 export const metadata: Metadata = {
   title: 'Image to Sketch - Free Online Tool | PixMorph',
-  description: 'Convert any image to a pencil sketch. Free online tool for creating sketches from photos.',
+  description: 'Convert any image to a pencil sketch. Free online tool for creating sketches from photos. Fast, free, and secure browser-based tool. Your files never leave...',
 }
 
 export default function ImageToSketchPage() {

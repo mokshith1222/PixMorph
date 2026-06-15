@@ -5,7 +5,7 @@ import { WebsiteSecurityCheck } from '@/components/conversion/WebsiteSecurityChe
 
 export const metadata: Metadata = {
   title: 'Website Security Check - Free Online Tool | PixMorph',
-  description: 'Check the security of any website. Free online tool for verifying SSL, headers, and security best practices.',
+  description: 'Check the security of any website. Free online tool for verifying SSL, headers, and security best practices. Fast, free, and secure browser-based tool....',
 }
 
 export default function WebsiteSecurityCheckPage() {

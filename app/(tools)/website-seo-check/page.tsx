@@ -5,7 +5,7 @@ import { WebsiteSEOCheck } from '@/components/conversion/WebsiteSEOCheck'
 
 export const metadata: Metadata = {
   title: 'Website SEO Check - Free Online Tool | PixMorph',
-  description: 'Check the SEO health of any website. Free online tool for analyzing meta tags, headings, and more.',
+  description: 'Check the SEO health of any website. Free online tool for analyzing meta tags, headings, and more. Fast, free, and secure browser-based tool. Your files...',
 }
 
 export default function WebsiteSEOCheckPage() {

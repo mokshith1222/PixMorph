@@ -5,7 +5,7 @@ import { PDFToWord } from '@/components/conversion/PDFToWord'
 
 export const metadata: Metadata = {
   title: 'PDF to Word - Free Online Tool | PixMorph',
-  description: 'Convert PDF to Word documents online for free. Edit PDF content in Microsoft Word format.',
+  description: 'Convert PDF to Word documents online for free. Edit PDF content in Microsoft Word format. Fast, free, and secure browser-based tool. Your files never leave...',
 }
 
 export default function PdfToWordPage() {

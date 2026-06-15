@@ -5,7 +5,7 @@ import { PDFWatermarker } from '@/components/conversion/PDFWatermarker'
 
 export const metadata: Metadata = {
   title: 'PDF Watermarker - Free Online Tool | PixMorph',
-  description: 'Add watermarks to PDF documents online for free. Protect your PDF files with custom watermarks.',
+  description: 'Add watermarks to PDF documents online for free. Protect your PDF files with custom watermarks. Fast, free, and secure browser-based tool. Your files never...',
 }
 
 export default function PdfWatermarkerPage() {

@@ -5,7 +5,7 @@ import { ImageSharper } from '@/components/conversion/ImageSharper'
 
 export const metadata: Metadata = {
   title: 'Image Sharper - Free Online Tool | PixMorph',
-  description: 'Sharpen blurry images online for free. Make photos crisper and clearer with our image sharpening tool.',
+  description: 'Sharpen blurry images online for free. Make photos crisper and clearer with our image sharpening tool. Fast, free, and secure browser-based tool. Your...',
 }
 
 export default function ImageSharperPage() {

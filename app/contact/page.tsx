@@ -67,16 +67,16 @@ export default function ContactPage() {
                 Follow us on social media for updates, tips, and new tool announcements.
               </p>
               <div className="flex gap-3">
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
-                  className="w-9 h-9 bg-sky-100 dark:bg-sky-900/30 rounded-lg flex items-center justify-center hover:bg-sky-200 transition-colors">
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
+                  className="w-11 h-11 bg-sky-100 dark:bg-sky-900/30 rounded-lg flex items-center justify-center hover:bg-sky-200 transition-colors">
                   <Twitter className="w-4 h-4 text-sky-600" />
                 </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
-                  className="w-9 h-9 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+                <a href="https://github.com/mokshith1222/PixMorph" target="_blank" rel="noopener noreferrer" aria-label="PixMorph GitHub Repository"
+                  className="w-11 h-11 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
                   <Github className="w-4 h-4 text-gray-700 dark:text-gray-300" />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
-                  className="w-9 h-9 bg-pink-100 dark:bg-pink-900/30 rounded-lg flex items-center justify-center hover:bg-pink-200 transition-colors">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
+                  className="w-11 h-11 bg-pink-100 dark:bg-pink-900/30 rounded-lg flex items-center justify-center hover:bg-pink-200 transition-colors">
                   <Instagram className="w-4 h-4 text-pink-600" />
                 </a>
               </div>

@@ -5,7 +5,7 @@ import { PDFToExcel } from '@/components/conversion/PDFToExcel'
 
 export const metadata: Metadata = {
   title: 'PDF to Excel - Free Online Tool | PixMorph',
-  description: 'Convert PDF to Excel spreadsheets online for free. Extract tables and data from PDF files.',
+  description: 'Convert PDF to Excel spreadsheets online for free. Extract tables and data from PDF files. Fast, free, and secure browser-based tool. Your files never...',
 }
 
 export default function PdfToExcelPage() {

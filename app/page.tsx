@@ -66,7 +66,7 @@ export default function HomePage() {
         
         <Container>
           <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-50 dark:bg-primary-900/30 border border-primary-100 dark:border-primary-800 text-primary-600 dark:text-primary-400 text-xs font-bold mb-8 transition-transform hover:scale-105 cursor-default">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-50 dark:bg-primary-900/30 border border-primary-100 dark:border-primary-800 text-primary-700 dark:text-primary-300 text-xs font-bold mb-8 transition-transform hover:scale-105 cursor-default">
               <Sparkles className="w-3.5 h-3.5" />
               <span>100% Browser-Based & Secure</span>
             </div>
@@ -83,11 +83,11 @@ export default function HomePage() {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
-              <Link href="/tools" className="w-full sm:w-auto px-10 py-4 rounded-2xl bg-primary-600 hover:bg-primary-700 text-white font-bold transition-all shadow-xl shadow-primary-500/25 flex items-center justify-center gap-2 group active:scale-95">
+              <Link href="/tools" className="w-full sm:w-auto px-10 py-4 min-h-[44px] rounded-2xl bg-primary-700 hover:bg-primary-800 text-white font-bold transition-all shadow-xl shadow-primary-500/25 flex items-center justify-center gap-2 group active:scale-95">
                 Explore All Tools
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <a href="https://github.com/mokshith1222/PixMorph" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-10 py-4 rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300 font-bold hover:bg-gray-50 dark:hover:bg-gray-800 transition-all flex items-center justify-center gap-2 active:scale-95">
+              <a href="https://github.com/mokshith1222/PixMorph" target="_blank" rel="noopener noreferrer" aria-label="PixMorph GitHub Repository" className="w-full sm:w-auto px-10 py-4 min-h-[44px] rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300 font-bold hover:bg-gray-50 dark:hover:bg-gray-800 transition-all flex items-center justify-center gap-2 active:scale-95">
                 Star on GitHub
               </a>
             </div>
@@ -166,21 +166,21 @@ export default function HomePage() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 mt-1 text-primary-500"><CheckCircle2 className="w-6 h-6" /></div>
                   <div>
-                    <h4 className="font-bold text-lg">Smart Image Compression</h4>
+                    <h3 className="font-bold text-lg">Smart Image Compression</h3>
                     <p className="text-gray-500 text-sm leading-relaxed">Our compression algorithms use intelligent lossy and lossless techniques to reduce file sizes by up to 90% while maintaining stunning visual quality for WebP, PNG, and JPEG.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 mt-1 text-primary-500"><CheckCircle2 className="w-6 h-6" /></div>
                   <div>
-                    <h4 className="font-bold text-lg">Millisecond-Precision Audio Tools</h4>
+                    <h3 className="font-bold text-lg">Millisecond-Precision Audio Tools</h3>
                     <p className="text-gray-500 text-sm leading-relaxed">Trim, convert, and boost audio with professional accuracy. We support high-fidelity formats like WAV, MP3, and OGG without any quality degradation during the conversion process.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 mt-1 text-primary-500"><CheckCircle2 className="w-6 h-6" /></div>
                   <div>
-                    <h4 className="font-bold text-lg">Unified PDF Management</h4>
+                    <h3 className="font-bold text-lg">Unified PDF Management</h3>
                     <p className="text-gray-500 text-sm leading-relaxed">Merge multiple documents, extract specific pages, or compress heavy PDFs for email. All document structural integrity is preserved perfectly.</p>
                   </div>
                 </div>
@@ -313,7 +313,7 @@ export default function HomePage() {
                         {step.icon}
                       </div>
                       <div>
-                        <h4 className="text-xl font-bold text-white mb-1">{step.title}</h4>
+                        <h3 className="text-xl font-bold text-white mb-1">{step.title}</h3>
                         <p className="text-gray-400 text-sm leading-relaxed">{step.desc}</p>
                       </div>
                     </div>

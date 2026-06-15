@@ -5,7 +5,7 @@ import { AudioTrimmer } from '@/components/conversion/AudioTrimmer'
 
 export const metadata: Metadata = {
   title: 'Audio Trimmer - Free Online Tool | PixMorph',
-  description: 'Trim audio clips online for free. Cut and trim audio files to your desired length.',
+  description: 'Trim audio clips online for free. Cut and trim audio files to your desired length. Fast, free, and secure browser-based tool. Your files never leave your...',
 }
 
 export default function AudioTrimmerPage() {

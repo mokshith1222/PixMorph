@@ -5,7 +5,7 @@ import { PDFSplitter } from '@/components/conversion/PDFSplitter'
 
 export const metadata: Metadata = {
   title: 'PDF Splitter - Free Online Tool | PixMorph',
-  description: 'Split PDF into separate pages online for free. Extract individual pages from PDF documents.',
+  description: 'Split PDF into separate pages online for free. Extract individual pages from PDF documents. Fast, free, and secure browser-based tool. Your files never...',
 }
 
 export default function PdfSplitterPage() {
