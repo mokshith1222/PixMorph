@@ -57,6 +57,7 @@ export const TOOLS: ToolDefinition[] = [
   { slug: 'sql-minifier', name: 'SQL Minifier', description: 'Minify SQL queries', category: 'Code Tools' },
   { slug: 'code-diff-checker', name: 'Code Diff Checker', description: 'Compare code differences', category: 'Code Tools' },
   // Utility
+  { slug: 'watermark-remover', name: 'Watermark Remover', description: 'Remove watermarks from images & videos', category: 'Utility Tools' },
   { slug: 'qr-generator', name: 'QR Code Generator', description: 'Generate QR codes for text or URLs', category: 'Utility Tools' },
   { slug: 'qr-scanner', name: 'QR Code Scanner', description: 'Scan QR codes from images', category: 'Utility Tools' },
   { slug: 'currency-converter', name: 'Currency Converter', description: 'Convert currencies with live rates', category: 'Utility Tools' },
