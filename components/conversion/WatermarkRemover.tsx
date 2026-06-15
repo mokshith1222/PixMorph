@@ -19,6 +19,7 @@ export function WatermarkRemover() {
   const [file, setFile] = useState<File | null>(null)
   const [mediaUrl, setMediaUrl] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const [progress, setProgress] = useState<number>(0)
   const [result, setResult] = useState<string | null>(null)
 
   const [box, setBox] = useState<Box | null>(null)
@@ -35,6 +36,7 @@ export function WatermarkRemover() {
       setMediaUrl(URL.createObjectURL(selectedFile))
       setResult(null)
       setBox(null)
+      setProgress(0)
     }
   }
 
@@ -77,6 +79,7 @@ export function WatermarkRemover() {
     }
 
     setLoading(true)
+    setProgress(0)
     try {
       // Calculate actual coordinates based on original media size
       const rect = mediaRef.current.getBoundingClientRect()
@@ -109,6 +112,11 @@ export function WatermarkRemover() {
       actualH = Math.min(naturalHeight - actualY - 1, actualH)
 
       const ffmpeg = new FFmpeg()
+      
+      ffmpeg.on('progress', ({ progress, time }) => {
+        setProgress(Math.round(progress * 100))
+      })
+
       await ffmpeg.load()
 
       const inputName = `input.${file.name.split('.').pop()}`
@@ -122,7 +130,7 @@ export function WatermarkRemover() {
       ]
 
       if (file.type.startsWith('video/')) {
-        args.push('-c:a', 'copy')
+        args.push('-c:a', 'copy', '-preset', 'ultrafast')
       }
 
       args.push(outputName)
@@ -140,6 +148,7 @@ export function WatermarkRemover() {
       toast.error('Failed to process file. Make sure area is not touching the edges.')
     } finally {
       setLoading(false)
+      setProgress(0)
     }
   }
 
@@ -230,9 +239,14 @@ export function WatermarkRemover() {
                   ↑ Please draw a box over the watermark on the media above to enable the button ↑
                 </p>
               )}
-              <Button onClick={handleProcess} disabled={loading || !box || box.width === 0} className="w-full">
+              {loading && progress > 0 && (
+                <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mb-4">
+                  <div className="bg-primary-600 h-2.5 rounded-full transition-all duration-300" style={{ width: `${Math.min(progress, 100)}%` }}></div>
+                </div>
+              )}
+              <Button onClick={handleProcess} disabled={loading || !box || box.width === 0} className="w-full relative overflow-hidden">
                 <Eraser className="w-4 h-4 mr-2" />
-                {loading ? 'Processing...' : 'Remove Watermark'}
+                {loading ? `Processing... ${progress}%` : 'Remove Watermark'}
               </Button>
             </div>
           )}
