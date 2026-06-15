@@ -102,7 +102,17 @@ export function PDFToJPG() {
           </Button>
         </>
       )}
-      <Button onClick={handleConvert} disabled={files.length === 0 || converting} className="w-full">
+      <Button 
+        onClick={() => {
+          if (files.length === 0) {
+            toast.error('No files found! Please upload a PDF first.');
+            return;
+          }
+          handleConvert();
+        }} 
+        disabled={converting} 
+        className="w-full"
+      >
         <FileImage className="w-4 h-4 mr-2" />
         {converting ? 'Converting...' : 'Convert PDF to JPG'}
       </Button>
