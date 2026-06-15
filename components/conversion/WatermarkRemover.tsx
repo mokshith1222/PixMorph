@@ -224,10 +224,17 @@ export function WatermarkRemover() {
           )}
 
           {!result && (
-            <Button onClick={handleProcess} disabled={loading || !box || box.width === 0} className="w-full">
-              <Eraser className="w-4 h-4 mr-2" />
-              {loading ? 'Processing...' : 'Remove Watermark'}
-            </Button>
+            <div className="space-y-2">
+              {(!box || box.width === 0) && (
+                <p className="text-sm text-amber-600 dark:text-amber-400 text-center font-medium animate-pulse">
+                  ↑ Please draw a box over the watermark on the media above to enable the button ↑
+                </p>
+              )}
+              <Button onClick={handleProcess} disabled={loading || !box || box.width === 0} className="w-full">
+                <Eraser className="w-4 h-4 mr-2" />
+                {loading ? 'Processing...' : 'Remove Watermark'}
+              </Button>
+            </div>
           )}
 
           {result && (
