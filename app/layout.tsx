@@ -18,6 +18,9 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://pixmorph.com'),
+  alternates: {
+    canonical: '/',
+  },
   title: {
     default: 'PixMorph - 100+ Free Browser-Based Image, Audio & PDF Tools',
     template: '%s | PixMorph',
