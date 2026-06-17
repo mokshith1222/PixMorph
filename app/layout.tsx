@@ -17,7 +17,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://pixmorph.com'),
+  metadataBase: new URL('https://pix-morph-chi.vercel.app'),
   alternates: {
     canonical: '/',
   },
@@ -52,11 +52,11 @@ export const metadata: Metadata = {
       template: '%s | PixMorph',
     },
     description: 'Access 100+ free, secure online tools for image, audio, and PDF editing. PixMorph runs entirely in your browser—your files never leave your device.',
-    url: 'https://pixmorph.com',
+    url: 'https://pix-morph-chi.vercel.app',
     siteName: 'PixMorph',
     images: [
       {
-        url: 'https://pixmorph.com/og-image.jpg',
+        url: 'https://pix-morph-chi.vercel.app/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'PixMorph - Free Online Tools',
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
       template: '%s | PixMorph',
     },
     description: 'Access 100+ free, secure online tools for image, audio, and PDF editing. PixMorph runs entirely in your browser—your files never leave your device.',
-    images: ['https://pixmorph.com/og-image.jpg'],
+    images: ['https://pix-morph-chi.vercel.app/og-image.jpg'],
   },
   verification: {
     google: 'googlefbfa23743896d7f7',

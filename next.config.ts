@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   allowedDevOrigins: ['192.168.56.1', 'localhost'],
   images: {
-    remotePatterns: [{ hostname: 'pixmorph.com' }],
+    remotePatterns: [{ hostname: 'pix-morph-chi.vercel.app' }],
     unoptimized: true,
   },
   webpack: (config) => {

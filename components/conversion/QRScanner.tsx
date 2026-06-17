@@ -29,7 +29,7 @@ export function QRScanner() {
         const ctx = canvas.getContext('2d')
         ctx?.drawImage(img, 0, 0)
 
-        setResult('https://pixmorph.com')
+        setResult('https://pix-morph-chi.vercel.app')
         toast.success('QR code detected!')
       } catch {
         toast.error('No QR code found in the image')
@@ -42,7 +42,7 @@ export function QRScanner() {
     setScanning(true)
     try {
       await new Promise((resolve) => setTimeout(resolve, 2000))
-      setResult('https://pixmorph.com')
+      setResult('https://pix-morph-chi.vercel.app')
       toast.success('QR code scanned!')
     } catch {
       toast.error('Failed to scan QR code')
