@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const baseUrl = 'https://pixmorph.com';
+const baseUrl = 'https://pix-morph-chi.vercel.app';
 
 // Generate robots.txt
 const robotsTxt = `User-Agent: *
