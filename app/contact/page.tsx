@@ -5,6 +5,7 @@ import { Mail, Clock, MessageCircle, Github, Twitter, Instagram, HelpCircle, Bug
 export const metadata = {
   title: 'Contact Us | PixMorph',
   description: 'Get in touch with the PixMorph team. Email us for support, bug reports, or feature suggestions.',
+  alternates: { canonical: '/contact' },
 }
 
 export default function ContactPage() {
@@ -67,7 +68,7 @@ export default function ContactPage() {
                 Follow us on social media for updates, tips, and new tool announcements.
               </p>
               <div className="flex gap-3">
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
+                <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
                   className="w-11 h-11 bg-sky-100 dark:bg-sky-900/30 rounded-lg flex items-center justify-center hover:bg-sky-200 transition-colors">
                   <Twitter className="w-4 h-4 text-sky-600" />
                 </a>
@@ -75,7 +76,7 @@ export default function ContactPage() {
                   className="w-11 h-11 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
                   <Github className="w-4 h-4 text-gray-700 dark:text-gray-300" />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
                   className="w-11 h-11 bg-pink-100 dark:bg-pink-900/30 rounded-lg flex items-center justify-center hover:bg-pink-200 transition-colors">
                   <Instagram className="w-4 h-4 text-pink-600" />
                 </a>

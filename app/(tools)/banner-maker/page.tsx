@@ -5,7 +5,8 @@ import { BannerMaker } from '@/components/conversion/BannerMaker'
 
 export const metadata: Metadata = {
   title: 'Banner Maker - Free Online Tool | PixMorph',
-  description: 'Create banners. Free online tool.',
+  description: 'Create banners. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/banner-maker' }
 }
 
 export default function BannerMakerPage() {

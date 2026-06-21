@@ -6,6 +6,7 @@ import { ImageBrightnessContrast } from '@/components/conversion/ImageBrightness
 export const metadata: Metadata = {
   title: 'Image Brightness & Contrast - Free Online Tool | PixMorph',
   description: 'Adjust the brightness and contrast of your images online for free. Get live preview. Fast, free, and secure browser-based tool. Your files never leave your...',
+  alternates: { canonical: '/image-brightness-contrast' }
 }
 
 export default function ImageBrightnessContrastPage() {

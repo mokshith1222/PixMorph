@@ -6,6 +6,7 @@ import { ImageEnhancer } from '@/components/conversion/ImageEnhancer'
 export const metadata: Metadata = {
   title: 'Image Enhancer - Free Online Tool | PixMorph',
   description: 'Enhance image quality online for free. Improve brightness, contrast, and clarity with our image enhancer. Fast, free, and secure browser-based tool. Your...',
+  alternates: { canonical: '/image-enhancer' }
 }
 
 export default function ImageEnhancerPage() {

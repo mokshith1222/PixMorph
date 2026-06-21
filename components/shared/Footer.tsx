@@ -16,11 +16,11 @@ export function Footer() {
             </p>
             {/* Social icons */}
             <div className="flex gap-3 mt-6">
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
+              <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
                 className="w-11 h-11 rounded-xl bg-sky-50 dark:bg-sky-900/20 border border-sky-200 dark:border-sky-800 flex items-center justify-center text-sky-500 hover:bg-sky-100 dark:hover:bg-sky-900/40 hover:scale-110 transition-all">
                 <Twitter className="w-4 h-4" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
                 className="w-11 h-11 rounded-xl bg-pink-50 dark:bg-pink-900/20 border border-pink-200 dark:border-pink-800 flex items-center justify-center text-pink-500 hover:bg-pink-100 dark:hover:bg-pink-900/40 hover:scale-110 transition-all">
                 <Instagram className="w-4 h-4" />
               </a>

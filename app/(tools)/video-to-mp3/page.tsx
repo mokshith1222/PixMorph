@@ -6,6 +6,7 @@ import { VideoToMP3 } from '@/components/conversion/VideoToMP3'
 export const metadata: Metadata = {
   title: 'Video to MP3 - Free Online Tool | PixMorph',
   description: 'Extract audio from video online for free. Convert video files to MP3 audio format. Fast, free, and secure browser-based tool. Your files never leave your...',
+  alternates: { canonical: '/video-to-mp3' }
 }
 
 export default function VideoToMp3Page() {

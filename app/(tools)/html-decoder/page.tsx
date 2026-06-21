@@ -5,7 +5,8 @@ import { HtmlDecoder } from '@/components/conversion/HtmlDecoder'
 
 export const metadata: Metadata = {
   title: 'HTML Decoder - Free Online Tool | PixMorph',
-  description: 'Decode HTML entities. Free online tool.',
+  description: 'Decode HTML entities. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/html-decoder' }
 }
 
 export default function HtmlDecoderPage() {

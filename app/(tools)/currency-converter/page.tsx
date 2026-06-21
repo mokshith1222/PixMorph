@@ -6,6 +6,7 @@ import { CurrencyConverter } from '@/components/conversion/CurrencyConverter'
 export const metadata: Metadata = {
   title: 'Currency Converter - Free Online Tool | PixMorph',
   description: 'Convert currencies with live exchange rates. Free online tool for currency conversion. Fast, free, and secure browser-based tool. Your files never leave...',
+  alternates: { canonical: '/currency-converter' }
 }
 
 export default function CurrencyConverterPage() {

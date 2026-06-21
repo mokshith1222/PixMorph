@@ -6,6 +6,7 @@ import { ImageResizer } from '@/components/conversion/ImageResizer'
 export const metadata: Metadata = {
   title: 'Image Resizer - Free Online Tool | PixMorph',
   description: 'Resize images online for free. Change dimensions and scale images to any size quickly and easily. Fast, free, and secure browser-based tool. Your files...',
+  alternates: { canonical: '/image-resizer' }
 }
 
 export default function ImageResizerPage() {

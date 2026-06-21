@@ -4,6 +4,7 @@ import { Shield, Eye, Database, Lock, Globe, Mail, UserCheck, RefreshCw } from '
 export const metadata = {
   title: 'Privacy Policy | PixMorph',
   description: 'Read how PixMorph handles your data. Your files never leave your device — all processing is local.',
+  alternates: { canonical: '/privacy' },
 }
 
 const sections = [

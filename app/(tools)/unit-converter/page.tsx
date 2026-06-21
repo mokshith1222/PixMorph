@@ -6,6 +6,7 @@ import { UnitConverter } from '@/components/conversion/UnitConverter'
 export const metadata: Metadata = {
   title: 'Unit Converter - Free Online Tool | PixMorph',
   description: 'Convert units of measurement including length, weight, temperature, and more. Fast, free, and secure browser-based tool. Your files never leave your device.',
+  alternates: { canonical: '/unit-converter' }
 }
 
 export default function UnitConverterPage() {

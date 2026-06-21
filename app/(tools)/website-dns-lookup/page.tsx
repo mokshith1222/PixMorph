@@ -5,7 +5,8 @@ import { WebsiteDnsLookup } from '@/components/conversion/WebsiteDnsLookup'
 
 export const metadata: Metadata = {
   title: 'Website DNS Lookup - Free Online Tool | PixMorph',
-  description: 'DNS Records Lookup. Free online tool.',
+  description: 'DNS Records Lookup. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/website-dns-lookup' }
 }
 
 export default function WebsiteDnsLookupPage() {

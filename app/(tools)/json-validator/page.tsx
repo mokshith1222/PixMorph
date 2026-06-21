@@ -5,7 +5,8 @@ import { JsonValidator } from '@/components/conversion/JsonValidator'
 
 export const metadata: Metadata = {
   title: 'JSON Validator - Free Online Tool | PixMorph',
-  description: 'Validate JSON formatting. Free online tool.',
+  description: 'Validate JSON formatting. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/json-validator' }
 }
 
 export default function JsonValidatorPage() {

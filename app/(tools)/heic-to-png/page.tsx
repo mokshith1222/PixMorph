@@ -5,7 +5,8 @@ import { HeicConverter } from '@/components/conversion/HeicConverter'
 
 export const metadata: Metadata = {
   title: 'HEIC to PNG - Free Online Tool | PixMorph',
-  description: 'Convert HEIC images to PNG format online for free. Preserve transparency and quality with our fast HEIC to PNG converter. Fast, free, and secure...',
+  description: 'Convert HEIC images to PNG format online for free. Preserve transparency and quality with our fast HEIC to PNG converter. Fast, free, and secure... All proc...',
+  alternates: { canonical: '/heic-to-png' }
 }
 
 export default function HeicToPngPage() {

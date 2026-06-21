@@ -6,6 +6,7 @@ import { HeicConverter } from '@/components/conversion/HeicConverter'
 export const metadata: Metadata = {
   title: 'HEIC to AVIF - Free Online Tool | PixMorph',
   description: 'Convert HEIC images to AVIF format online for free. Next-generation compression for smaller, high-quality images. Fast, free, and secure browser-based...',
+  alternates: { canonical: '/heic-to-avif' }
 }
 
 export default function HeicToAvifPage() {

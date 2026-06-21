@@ -5,7 +5,8 @@ import { VideoRotator } from '@/components/conversion/VideoRotator'
 
 export const metadata: Metadata = {
   title: 'Video Rotator - Free Online Tool | PixMorph',
-  description: 'Rotate video. Free online tool.',
+  description: 'Rotate video. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/video-rotator' }
 }
 
 export default function VideoRotatorPage() {

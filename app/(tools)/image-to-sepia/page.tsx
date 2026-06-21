@@ -5,7 +5,8 @@ import { ImageToSepia } from '@/components/conversion/ImageToSepia'
 
 export const metadata: Metadata = {
   title: 'Image to Sepia - Free Online Tool | PixMorph',
-  description: 'Apply a warm sepia vintage filter to your photos online for free. Fast, free, and secure browser-based tool. Your files never leave your device.',
+  description: 'Apply a warm sepia vintage filter to your photos online for free. Fast, free, and secure browser-based tool. Your files never leave your device. All process...',
+  alternates: { canonical: '/image-to-sepia' }
 }
 
 export default function ImageToSepiaPage() {

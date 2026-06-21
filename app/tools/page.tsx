@@ -3,6 +3,12 @@ import { Container } from '@/components/ui/Container'
 import { Card } from '@/components/ui/Card'
 import { TOOLS } from '@/lib/constants'
 
+export const metadata = {
+  title: 'All Tools | PixMorph',
+  description: 'Browse our collection of 100+ free online file conversion and editing tools.',
+  alternates: { canonical: '/tools' },
+}
+
 export default function ToolsPage() {
   const categories = [...new Set(TOOLS.map((t) => t.category))]
 

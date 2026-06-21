@@ -5,7 +5,8 @@ import { HtmlEncoder } from '@/components/conversion/HtmlEncoder'
 
 export const metadata: Metadata = {
   title: 'HTML Encoder - Free Online Tool | PixMorph',
-  description: 'Encode HTML entities. Free online tool.',
+  description: 'Encode HTML entities. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/html-encoder' }
 }
 
 export default function HtmlEncoderPage() {

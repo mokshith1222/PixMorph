@@ -6,6 +6,7 @@ import { CodeDiffChecker } from '@/components/conversion/CodeDiffChecker'
 export const metadata: Metadata = {
   title: 'Code Diff Checker - Free Online Tool | PixMorph',
   description: 'Compare code differences online for free. Side-by-side diff comparison to find changes in your code. Fast, free, and secure browser-based tool. Your files...',
+  alternates: { canonical: '/code-diff-checker' }
 }
 
 export default function CodeDiffCheckerPage() {

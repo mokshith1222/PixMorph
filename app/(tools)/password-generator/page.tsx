@@ -6,6 +6,7 @@ import { PasswordGenerator } from '@/components/conversion/PasswordGenerator'
 export const metadata: Metadata = {
   title: 'Password Generator - Free Online Tool | PixMorph',
   description: 'Generate secure passwords with customizable options. Free online tool for creating strong passwords. Fast, free, and secure browser-based tool. Your files...',
+  alternates: { canonical: '/password-generator' }
 }
 
 export default function PasswordGeneratorPage() {

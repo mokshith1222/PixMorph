@@ -5,7 +5,8 @@ import { PosterMaker } from '@/components/conversion/PosterMaker'
 
 export const metadata: Metadata = {
   title: 'Poster Maker - Free Online Tool | PixMorph',
-  description: 'Create posters. Free online tool.',
+  description: 'Create posters. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/poster-maker' }
 }
 
 export default function PosterMakerPage() {

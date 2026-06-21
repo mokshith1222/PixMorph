@@ -5,7 +5,8 @@ import { VideoSpeedChanger } from '@/components/conversion/VideoSpeedChanger'
 
 export const metadata: Metadata = {
   title: 'Video Speed Changer - Free Online Tool | PixMorph',
-  description: 'Change video playback speed. Free online tool.',
+  description: 'Change video playback speed. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/video-speed-changer' }
 }
 
 export default function VideoSpeedChangerPage() {

@@ -24,7 +24,7 @@ export function HtmlEncoder() {
           value={text}
           onChange={(e) => setText(e.target.value)}
           className="w-full h-[500px] p-6 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-3xl focus:ring-2 focus:ring-primary-500 resize-none outline-none text-gray-800 dark:text-gray-200 font-mono shadow-sm transition-shadow"
-          placeholder="<h1>Hello World!</h1>"
+          placeholder="<h2>Hello World!</h2>"
         />
       </div>
       <div className="relative group flex flex-col">

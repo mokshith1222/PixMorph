@@ -5,7 +5,8 @@ import { UrlDecoder } from '@/components/conversion/UrlDecoder'
 
 export const metadata: Metadata = {
   title: 'URL Decoder - Free Online Tool | PixMorph',
-  description: 'Decode URLs. Free online tool.',
+  description: 'Decode URLs. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/url-decoder' }
 }
 
 export default function UrlDecoderPage() {

@@ -61,7 +61,7 @@ export function PosterMaker() {
                   <div className="absolute bottom-0 left-0 w-48 h-48 opacity-20 rounded-full transform -translate-x-1/2 translate-y-1/2" style={{ backgroundColor: currentTheme.accent }}></div>
                   
                   <div className="z-10 mt-10">
-                      <h1 className="text-6xl font-display font-black uppercase leading-tight mb-4" style={{ color: currentTheme.accent }}>{title}</h1>
+                      <h2 className="text-6xl font-display font-black uppercase leading-tight mb-4" style={{ color: currentTheme.accent }}>{title}</h2>
                       <div className="w-20 h-2 mb-6" style={{ backgroundColor: currentTheme.text }}></div>
                       <h2 className="text-2xl font-bold uppercase tracking-widest">{date}</h2>
                   </div>

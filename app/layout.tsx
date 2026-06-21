@@ -52,7 +52,6 @@ export const metadata: Metadata = {
       template: '%s | PixMorph',
     },
     description: 'Access 100+ free, secure online tools for image, audio, and PDF editing. PixMorph runs entirely in your browser—your files never leave your device.',
-    url: 'https://pix-morph-chi.vercel.app',
     siteName: 'PixMorph',
     images: [
       {

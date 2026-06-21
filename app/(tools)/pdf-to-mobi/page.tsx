@@ -5,7 +5,8 @@ import { PdfToMobi } from '@/components/conversion/PdfToMobi'
 
 export const metadata: Metadata = {
   title: 'PDF to MOBI - Free Online Tool | PixMorph',
-  description: 'Convert PDF to MOBI. Free online tool.',
+  description: 'Convert PDF to MOBI. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/pdf-to-mobi' }
 }
 
 export default function PdfToMobiPage() {

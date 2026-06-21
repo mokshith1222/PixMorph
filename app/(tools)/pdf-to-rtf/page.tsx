@@ -5,7 +5,8 @@ import { PdfToRtf } from '@/components/conversion/PdfToRtf'
 
 export const metadata: Metadata = {
   title: 'PDF to RTF - Free Online Tool | PixMorph',
-  description: 'Convert PDF to RTF. Free online tool.',
+  description: 'Convert PDF to RTF. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/pdf-to-rtf' }
 }
 
 export default function PdfToRtfPage() {

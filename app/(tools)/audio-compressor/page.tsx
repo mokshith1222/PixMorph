@@ -6,6 +6,7 @@ import { AudioCompressor } from '@/components/conversion/AudioCompressor'
 export const metadata: Metadata = {
   title: 'Audio Compressor - Free Online Tool | PixMorph',
   description: 'Compress audio files online for free. Reduce audio file size while maintaining sound quality. Fast, free, and secure browser-based tool. Your files never...',
+  alternates: { canonical: '/audio-compressor' }
 }
 
 export default function AudioCompressorPage() {

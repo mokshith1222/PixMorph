@@ -5,7 +5,8 @@ import { AudioEditor } from '@/components/conversion/AudioEditor'
 
 export const metadata: Metadata = {
   title: 'Audio Editor - Free Online Tool | PixMorph',
-  description: 'Edit audio waveforms. Free online tool.',
+  description: 'Edit audio waveforms. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/audio-editor' }
 }
 
 export default function AudioEditorPage() {

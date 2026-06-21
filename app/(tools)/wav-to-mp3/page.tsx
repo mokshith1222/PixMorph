@@ -6,6 +6,7 @@ import { WAVToMP3 } from '@/components/conversion/WAVToMP3'
 export const metadata: Metadata = {
   title: 'WAV to MP3 - Free Online Tool | PixMorph',
   description: 'Convert WAV to MP3 online for free. Compress audio files to smaller MP3 format. Fast, free, and secure browser-based tool. Your files never leave your device.',
+  alternates: { canonical: '/wav-to-mp3' }
 }
 
 export default function WavToMp3Page() {

@@ -5,7 +5,8 @@ import { IconMaker } from '@/components/conversion/IconMaker'
 
 export const metadata: Metadata = {
   title: 'Icon Maker - Free Online Tool | PixMorph',
-  description: 'Create custom icons. Free online tool.',
+  description: 'Create custom icons. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/icon-maker' }
 }
 
 export default function IconMakerPage() {

@@ -6,6 +6,7 @@ import { ImageFlip } from '@/components/conversion/ImageFlip'
 export const metadata: Metadata = {
   title: 'Image Flip Tool - Free Online Tool | PixMorph',
   description: 'Flip your image horizontally, vertically, or both directions online for free. Fast, free, and secure browser-based tool. Your files never leave your device.',
+  alternates: { canonical: '/image-flip' }
 }
 
 export default function ImageFlipPage() {

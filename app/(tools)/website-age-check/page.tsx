@@ -5,7 +5,8 @@ import { WebsiteAgeCheck } from '@/components/conversion/WebsiteAgeCheck'
 
 export const metadata: Metadata = {
   title: 'Website Age Check - Free Online Tool | PixMorph',
-  description: 'Check domain age. Free online tool.',
+  description: 'Check domain age. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/website-age-check' }
 }
 
 export default function WebsiteAgeCheckPage() {

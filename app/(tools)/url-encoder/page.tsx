@@ -5,7 +5,8 @@ import { URLEncoder } from '@/components/conversion/URLEncoder'
 
 export const metadata: Metadata = {
   title: 'URL Encoder - Free Online Tool | PixMorph',
-  description: 'Encode URLs and query parameters. Free online tool for URL encoding. Fast, free, and secure browser-based tool. Your files never leave your device.',
+  description: 'Encode URLs and query parameters. Free online tool for URL encoding. Fast, free, and secure browser-based tool. Your files never leave your device. All proc...',
+  alternates: { canonical: '/url-encoder' }
 }
 
 export default function URLEncoderPage() {

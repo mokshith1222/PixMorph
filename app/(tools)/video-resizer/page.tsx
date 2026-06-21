@@ -6,6 +6,7 @@ import { VideoResizer } from '@/components/conversion/VideoResizer'
 export const metadata: Metadata = {
   title: 'Video Resizer - Free Online Tool | PixMorph',
   description: 'Resize video dimensions online for free. Change video width and height to any resolution. Fast, free, and secure browser-based tool. Your files never leave...',
+  alternates: { canonical: '/video-resizer' }
 }
 
 export default function VideoResizerPage() {

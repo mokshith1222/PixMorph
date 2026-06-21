@@ -5,7 +5,8 @@ import { Base64Decoder } from '@/components/conversion/Base64Decoder'
 
 export const metadata: Metadata = {
   title: 'Base64 Decoder - Free Online Tool | PixMorph',
-  description: 'Decode Base64 strings. Free online tool.',
+  description: 'Decode Base64 strings. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/base64-decoder' }
 }
 
 export default function Base64DecoderPage() {

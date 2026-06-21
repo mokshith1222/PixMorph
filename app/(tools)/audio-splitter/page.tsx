@@ -5,7 +5,8 @@ import { AudioSplitter } from '@/components/conversion/AudioSplitter'
 
 export const metadata: Metadata = {
   title: 'Audio Splitter - Free Online Tool | PixMorph',
-  description: 'Split audio into parts. Free online tool.',
+  description: 'Split audio into parts. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/audio-splitter' }
 }
 
 export default function AudioSplitterPage() {

@@ -6,6 +6,7 @@ import { ImageCompressor } from '@/components/conversion/ImageCompressor'
 export const metadata: Metadata = {
   title: 'Image Compressor - Free Online Tool | PixMorph',
   description: 'Compress images online for free. Reduce file size without losing quality using our fast image compressor. Fast, free, and secure browser-based tool. Your...',
+  alternates: { canonical: '/image-compressor' }
 }
 
 export default function ImageCompressorPage() {

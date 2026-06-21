@@ -6,6 +6,7 @@ import { PDFUnlocker } from '@/components/conversion/PDFUnlocker'
 export const metadata: Metadata = {
   title: 'PDF Unlocker - Free Online Tool | PixMorph',
   description: 'Remove PDF password protection online for free. Unlock password-protected PDF files. Fast, free, and secure browser-based tool. Your files never leave your...',
+  alternates: { canonical: '/pdf-unlocker' }
 }
 
 export default function PdfUnlockerPage() {

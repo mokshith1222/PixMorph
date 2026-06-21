@@ -6,6 +6,7 @@ import { ImageRotator } from '@/components/conversion/ImageRotator'
 export const metadata: Metadata = {
   title: 'Image Rotator - Free Online Tool | PixMorph',
   description: 'Rotate images online for free. Flip and rotate images 90, 180, or 270 degrees instantly. Fast, free, and secure browser-based tool. Your files never leave...',
+  alternates: { canonical: '/image-rotator' }
 }
 
 export default function ImageRotatorPage() {

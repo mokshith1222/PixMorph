@@ -2,697 +2,697 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pix-morph-chi.vercel.app/</loc>
-    <lastmod>2026-06-17T13:25:56.144Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.456Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/tools</loc>
-    <lastmod>2026-06-17T13:25:56.144Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.456Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/privacy</loc>
-    <lastmod>2026-06-17T13:25:56.144Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.456Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/terms</loc>
-    <lastmod>2026-06-17T13:25:56.144Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.456Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/contact</loc>
-    <lastmod>2026-06-17T13:25:56.144Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.456Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/audio-compressor</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/audio-editor</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/audio-merger</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/audio-pitch-changer</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/audio-recorder</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/audio-splitter</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/audio-trimmer</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/audio-volume-booster</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/banner-maker</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/base64-decoder</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/base64-encoder</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/character-counter</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/code-beautifier</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/code-diff-checker</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/code-minifier</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/css-formatter</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/css-minifier</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/csv-to-html</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/currency-converter</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/heic-to-avif</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/heic-to-jpg</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/heic-to-png</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/heic-to-webp</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/html-decoder</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/html-encoder</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/html-to-csv</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/icon-maker</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-blurrer</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-brightness-contrast</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-color-extractor</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-compressor</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-crop</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-enhancer</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-flip</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-mirror</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-resizer</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-rotator</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-sharper</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-to-bw</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-to-cartoon</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-to-painting</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-to-sepia</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/image-to-sketch</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/js-formatter</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/json-formatter</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/json-minifier</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/json-to-yaml</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/json-validator</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/logo-maker</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/markdown-to-html</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/md5-generator</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/mp3-to-wav</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/password-generator</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-add-page</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-compressor</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-merger</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-page-extractor</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-page-remover</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-page-reorder</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-rotator</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-signer</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-splitter</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-docx</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-epub</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-excel</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-html</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-jpg</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-json</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-markdown</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-mobi</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-ppt</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-rtf</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-svg</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-txt</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-word</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-to-xml</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-unlocker</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/pdf-watermarker</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/poster-maker</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/qr-generator</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/qr-scanner</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/resume-maker</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/sha-generator</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/sql-formatter</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/sql-minifier</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/unit-converter</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/url-decoder</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/url-encoder</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/uuid-generator</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/uuid-validator</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/video-compressor</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/video-cropper</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/video-resizer</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/video-rotator</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/video-speed-changer</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/video-stabilizer</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/video-to-gif</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/video-to-mp3</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.457Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/video-to-mp4</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/video-trimmer</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/watermark-remover</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/wav-to-mp3</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/website-age-check</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/website-dns-lookup</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/website-qr</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/website-screenshot</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/website-security-check</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/website-seo-check</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/website-speed-test</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/word-counter</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pix-morph-chi.vercel.app/yaml-to-json</loc>
-    <lastmod>2026-06-17T13:25:56.145Z</lastmod>
+    <lastmod>2026-06-21T03:09:13.458Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

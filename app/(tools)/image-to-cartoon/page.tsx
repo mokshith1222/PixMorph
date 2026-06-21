@@ -6,6 +6,7 @@ import { ImageToCartoon } from '@/components/conversion/ImageToCartoon'
 export const metadata: Metadata = {
   title: 'Image to Cartoon - Free Online Tool | PixMorph',
   description: 'Convert any image to a cartoon style. Free online tool for creating cartoons from photos. Fast, free, and secure browser-based tool. Your files never leave...',
+  alternates: { canonical: '/image-to-cartoon' }
 }
 
 export default function ImageToCartoonPage() {

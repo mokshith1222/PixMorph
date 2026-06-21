@@ -6,6 +6,7 @@ import { PDFMerger } from '@/components/conversion/PDFMerger'
 export const metadata: Metadata = {
   title: 'PDF Merger - Free Online Tool | PixMorph',
   description: 'Merge PDF files online for free. Combine multiple PDF documents into a single file. Fast, free, and secure browser-based tool. Your files never leave your...',
+  alternates: { canonical: '/pdf-merger' }
 }
 
 export default function PdfMergerPage() {

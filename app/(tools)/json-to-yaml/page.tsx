@@ -5,7 +5,8 @@ import { JsonToYaml } from '@/components/conversion/JsonToYaml'
 
 export const metadata: Metadata = {
   title: 'JSON to YAML - Free Online Tool | PixMorph',
-  description: 'Convert JSON to YAML. Free online tool.',
+  description: 'Convert JSON to YAML. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/json-to-yaml' }
 }
 
 export default function JsonToYamlPage() {

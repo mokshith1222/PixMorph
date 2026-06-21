@@ -5,7 +5,8 @@ import { PdfToPpt } from '@/components/conversion/PdfToPpt'
 
 export const metadata: Metadata = {
   title: 'PDF to PPT - Free Online Tool | PixMorph',
-  description: 'Convert PDF to PowerPoint. Free online tool.',
+  description: 'Convert PDF to PowerPoint. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/pdf-to-ppt' }
 }
 
 export default function PdfToPptPage() {

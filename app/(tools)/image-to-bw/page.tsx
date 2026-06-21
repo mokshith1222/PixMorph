@@ -6,6 +6,7 @@ import { ImageToBW } from '@/components/conversion/ImageToBW'
 export const metadata: Metadata = {
   title: 'Image to Black & White - Free Online Tool | PixMorph',
   description: 'Convert any image to grayscale black and white using luminance-weighted processing. Fast, free, and secure browser-based tool. Your files never leave your...',
+  alternates: { canonical: '/image-to-bw' }
 }
 
 export default function ImageToBWPage() {

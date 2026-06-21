@@ -5,7 +5,8 @@ import { PdfToXml } from '@/components/conversion/PdfToXml'
 
 export const metadata: Metadata = {
   title: 'PDF to XML - Free Online Tool | PixMorph',
-  description: 'Convert PDF to XML. Free online tool.',
+  description: 'Convert PDF to XML. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/pdf-to-xml' }
 }
 
 export default function PdfToXmlPage() {

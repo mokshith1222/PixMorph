@@ -5,7 +5,8 @@ import { UuidValidator } from '@/components/conversion/UuidValidator'
 
 export const metadata: Metadata = {
   title: 'UUID Validator - Free Online Tool | PixMorph',
-  description: 'Validate UUIDs. Free online tool.',
+  description: 'Validate UUIDs. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/uuid-validator' }
 }
 
 export default function UuidValidatorPage() {

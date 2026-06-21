@@ -5,7 +5,8 @@ import { PdfToHtml } from '@/components/conversion/PdfToHtml'
 
 export const metadata: Metadata = {
   title: 'PDF to HTML - Free Online Tool | PixMorph',
-  description: 'Convert PDF to HTML. Free online tool.',
+  description: 'Convert PDF to HTML. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/pdf-to-html' }
 }
 
 export default function PdfToHtmlPage() {

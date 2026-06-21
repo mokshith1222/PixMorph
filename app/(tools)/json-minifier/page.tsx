@@ -5,7 +5,8 @@ import { JsonMinifier } from '@/components/conversion/JsonMinifier'
 
 export const metadata: Metadata = {
   title: 'JSON Minifier - Free Online Tool | PixMorph',
-  description: 'Minify JSON objects. Free online tool.',
+  description: 'Minify JSON objects. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/json-minifier' }
 }
 
 export default function JsonMinifierPage() {

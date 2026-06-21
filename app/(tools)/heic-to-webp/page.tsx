@@ -6,6 +6,7 @@ import { HeicConverter } from '@/components/conversion/HeicConverter'
 export const metadata: Metadata = {
   title: 'HEIC to WebP - Free Online Tool | PixMorph',
   description: 'Convert HEIC images to WebP format online for free. Smaller file sizes with excellent image quality. Fast, free, and secure browser-based tool. Your files...',
+  alternates: { canonical: '/heic-to-webp' }
 }
 
 export default function HeicToWebpPage() {

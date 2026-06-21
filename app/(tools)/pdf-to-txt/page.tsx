@@ -5,7 +5,8 @@ import { PdfToTxt } from '@/components/conversion/PdfToTxt'
 
 export const metadata: Metadata = {
   title: 'PDF to TXT - Free Online Tool | PixMorph',
-  description: 'Convert PDF to Text. Free online tool.',
+  description: 'Convert PDF to Text. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/pdf-to-txt' }
 }
 
 export default function PdfToTxtPage() {

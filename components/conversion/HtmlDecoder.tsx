@@ -38,7 +38,7 @@ export function HtmlDecoder() {
           readOnly
           value={decoded}
           className="w-full flex-grow h-[500px] p-6 pr-16 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-3xl font-mono text-gray-800 dark:text-gray-200 outline-none resize-none shadow-inner"
-          placeholder="<h1>Hello World!</h1>"
+          placeholder="<h2>Hello World!</h2>"
         />
         <div className="absolute top-12 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
           <button onClick={handleCopy} className="p-3 bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition-all shadow-sm border border-gray-200 dark:border-gray-700" title="Copy">

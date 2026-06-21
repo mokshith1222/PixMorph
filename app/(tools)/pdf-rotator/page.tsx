@@ -6,6 +6,7 @@ import { PDFRotator } from '@/components/conversion/PDFRotator'
 export const metadata: Metadata = {
   title: 'PDF Rotator - Free Online Tool | PixMorph',
   description: 'Rotate PDF pages online for free. Change page orientation in your PDF documents. Fast, free, and secure browser-based tool. Your files never leave your device.',
+  alternates: { canonical: '/pdf-rotator' }
 }
 
 export default function PdfRotatorPage() {

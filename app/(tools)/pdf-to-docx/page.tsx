@@ -5,7 +5,8 @@ import { PdfToDocx } from '@/components/conversion/PdfToDocx'
 
 export const metadata: Metadata = {
   title: 'PDF to DOCX - Free Online Tool | PixMorph',
-  description: 'Convert PDF to Word DOCX. Free online tool.',
+  description: 'Convert PDF to Word DOCX. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/pdf-to-docx' }
 }
 
 export default function PdfToDocxPage() {

@@ -5,7 +5,8 @@ import { AudioMerger } from '@/components/conversion/AudioMerger'
 
 export const metadata: Metadata = {
   title: 'Audio Merger - Free Online Tool | PixMorph',
-  description: 'Merge audio files. Free online tool.',
+  description: 'Merge audio files. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/audio-merger' }
 }
 
 export default function AudioMergerPage() {

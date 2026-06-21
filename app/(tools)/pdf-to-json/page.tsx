@@ -5,7 +5,8 @@ import { PdfToJson } from '@/components/conversion/PdfToJson'
 
 export const metadata: Metadata = {
   title: 'PDF to JSON - Free Online Tool | PixMorph',
-  description: 'Convert PDF to JSON. Free online tool.',
+  description: 'Convert PDF to JSON. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/pdf-to-json' }
 }
 
 export default function PdfToJsonPage() {

@@ -5,7 +5,8 @@ import { MarkdownToHtml } from '@/components/conversion/MarkdownToHtml'
 
 export const metadata: Metadata = {
   title: 'Markdown to HTML - Free Online Tool | PixMorph',
-  description: 'Convert Markdown to HTML. Free online tool.',
+  description: 'Convert Markdown to HTML. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/markdown-to-html' }
 }
 
 export default function MarkdownToHtmlPage() {

@@ -5,7 +5,8 @@ import { PdfPageReorder } from '@/components/conversion/PdfPageReorder'
 
 export const metadata: Metadata = {
   title: 'PDF Page Reorder - Free Online Tool | PixMorph',
-  description: 'Reorder pages in PDF. Free online tool.',
+  description: 'Reorder pages in PDF. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/pdf-page-reorder' }
 }
 
 export default function PdfPageReorderPage() {

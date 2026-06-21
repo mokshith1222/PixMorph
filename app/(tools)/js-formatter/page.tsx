@@ -5,7 +5,8 @@ import { JsFormatter } from '@/components/conversion/JsFormatter'
 
 export const metadata: Metadata = {
   title: 'JS Formatter - Free Online Tool | PixMorph',
-  description: 'Format JavaScript code. Free online tool.',
+  description: 'Format JavaScript code. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/js-formatter' }
 }
 
 export default function JsFormatterPage() {

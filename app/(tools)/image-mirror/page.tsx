@@ -5,7 +5,8 @@ import { ImageMirror } from '@/components/conversion/ImageMirror'
 
 export const metadata: Metadata = {
   title: 'Image Mirror - Free Online Tool | PixMorph',
-  description: 'Mirror your image horizontally or vertically online for free. Fast, free, and secure browser-based tool. Your files never leave your device.',
+  description: 'Mirror your image horizontally or vertically online for free. Fast, free, and secure browser-based tool. Your files never leave your device. All processing ...',
+  alternates: { canonical: '/image-mirror' }
 }
 
 export default function ImageMirrorPage() {

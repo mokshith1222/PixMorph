@@ -63,7 +63,7 @@ export function ResumeMaker() {
       <div className="bg-gray-200 dark:bg-gray-900 rounded-3xl flex items-center justify-center p-8 overflow-auto border border-gray-300 dark:border-gray-800">
           <div style={{ width: '210mm', minHeight: '297mm' }} className="bg-white shadow-2xl shrink-0 p-12 text-gray-900" ref={previewRef}>
               <div className="border-b-4 border-gray-900 pb-8 mb-8">
-                  <h1 className="text-5xl font-bold mb-2 uppercase tracking-wide text-gray-900">{name}</h1>
+                  <h2 className="text-5xl font-bold mb-2 uppercase tracking-wide text-gray-900">{name}</h2>
                   <h2 className="text-2xl text-primary-600 font-medium mb-4">{title}</h2>
                   <div className="flex gap-6 text-sm text-gray-600 font-medium">
                       <span>{email}</span>

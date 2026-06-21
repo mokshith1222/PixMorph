@@ -4,6 +4,7 @@ import { FileText, CheckCircle, XCircle, Scale, Globe, RefreshCw, Mail, ShieldAl
 export const metadata = {
   title: 'Terms of Service | PixMorph',
   description: 'Read the PixMorph Terms of Service. Free to use, no upload, no hidden costs.',
+  alternates: { canonical: '/terms' },
 }
 
 const sections = [

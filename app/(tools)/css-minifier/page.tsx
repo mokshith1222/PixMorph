@@ -5,7 +5,8 @@ import { CssMinifier } from '@/components/conversion/CssMinifier'
 
 export const metadata: Metadata = {
   title: 'CSS Minifier - Free Online Tool | PixMorph',
-  description: 'Minify CSS code. Free online tool.',
+  description: 'Minify CSS code. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/css-minifier' }
 }
 
 export default function CssMinifierPage() {

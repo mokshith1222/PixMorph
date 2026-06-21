@@ -5,7 +5,8 @@ import { AudioPitchChanger } from '@/components/conversion/AudioPitchChanger'
 
 export const metadata: Metadata = {
   title: 'Audio Pitch Changer - Free Online Tool | PixMorph',
-  description: 'Change audio pitch. Free online tool.',
+  description: 'Change audio pitch. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/audio-pitch-changer' }
 }
 
 export default function AudioPitchChangerPage() {

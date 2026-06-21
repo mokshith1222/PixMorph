@@ -5,7 +5,8 @@ import { PdfAddPage } from '@/components/conversion/PdfAddPage'
 
 export const metadata: Metadata = {
   title: 'PDF Add Page - Free Online Tool | PixMorph',
-  description: 'Add blank pages to PDF. Free online tool.',
+  description: 'Add blank pages to PDF. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/pdf-add-page' }
 }
 
 export default function PdfAddPagePage() {

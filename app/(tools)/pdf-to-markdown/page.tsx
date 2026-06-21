@@ -5,7 +5,8 @@ import { PdfToMarkdown } from '@/components/conversion/PdfToMarkdown'
 
 export const metadata: Metadata = {
   title: 'PDF to Markdown - Free Online Tool | PixMorph',
-  description: 'Convert PDF to Markdown. Free online tool.',
+  description: 'Convert PDF to Markdown. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/pdf-to-markdown' }
 }
 
 export default function PdfToMarkdownPage() {

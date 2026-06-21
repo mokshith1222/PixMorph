@@ -5,7 +5,8 @@ import { WatermarkRemover } from '@/components/conversion/WatermarkRemover'
 
 export const metadata: Metadata = {
   title: 'Watermark Remover - Free Online Tool | PixMorph',
-  description: 'Remove watermarks from images and videos effortlessly. Free online tool.',
+  description: 'Remove watermarks from images and videos effortlessly. Free online tool. All processing is done locally in your browser for maximum privacy and security. En...',
+  alternates: { canonical: '/watermark-remover' }
 }
 
 export default function WatermarkRemoverPage() {

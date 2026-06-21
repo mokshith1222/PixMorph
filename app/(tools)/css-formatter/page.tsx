@@ -5,7 +5,8 @@ import { CssFormatter } from '@/components/conversion/CssFormatter'
 
 export const metadata: Metadata = {
   title: 'CSS Formatter - Free Online Tool | PixMorph',
-  description: 'Format CSS code. Free online tool.',
+  description: 'Format CSS code. Free online tool. All processing is done locally in your browser for maximum privacy and security. Enhance your workflow today.',
+  alternates: { canonical: '/css-formatter' }
 }
 
 export default function CssFormatterPage() {

@@ -6,6 +6,7 @@ import { JSONFormatter } from '@/components/conversion/JSONFormatter'
 export const metadata: Metadata = {
   title: 'JSON Formatter - Free Online Tool | PixMorph',
   description: 'Format and beautify JSON data. Free online tool for pretty-printing JSON with proper indentation. Fast, free, and secure browser-based tool. Your files...',
+  alternates: { canonical: '/json-formatter' }
 }
 
 export default function JSONFormatterPage() {
